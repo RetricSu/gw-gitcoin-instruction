@@ -10,5 +10,3 @@
 8. Port an existing Ethereum app and make it runnable on polyjuice
 9. Modify the ported app so it supports Ethereum assets via force bridge
 10. Modify the ported app so it can be used from a Tron wallet
-
-暂定是这样一个列表，前 7 个我们要给一些 instructions，最后三个给点 tips 就行了
