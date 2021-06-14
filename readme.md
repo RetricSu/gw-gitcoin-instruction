@@ -19,3 +19,4 @@
 4. [Install MetaMask and set network to Godwoken](src/component-tutorials/4.setup.metamask.md)
 5. Setup and sync CKB testnet node, indexer and install ckb-cli
 6. [Extract private key from Keypering wallet](src/component-tutorials/6.keypering.extract.private.key.md)
+7. [Receive SUDT in Neuron wallet](src/component-tutorials/7.receive.sudt.in.neuron.md)
