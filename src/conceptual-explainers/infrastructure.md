@@ -2,7 +2,7 @@
 
 ## Force Bridge
 
-Force Bridge is a piece of decentralized infrastructure that connections Nervos to other blockchain platforms such as Ethereum and Cardano. This bridge is used to move tokens and assets between the different platforms.
+Force Bridge is a piece of decentralized infrastructure that connects Nervos to other blockchain platforms such as Ethereum and Cardano. This bridge is used to move tokens and assets between the different platforms.
 
 This allows value in all forms, be it tokens, NFTs, or other assets of value, to flow between different networks quickly and inexpensively. This allows developers to reach audiences across multiple networks immediately, without needing to deploy new infrastructure to do so.
 
