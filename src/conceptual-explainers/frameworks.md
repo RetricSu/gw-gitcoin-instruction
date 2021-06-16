@@ -6,14 +6,14 @@ Godwoken is a layer 2 rollup framework for use with the Nervos CKB layer 1 block
 
 Godwoken is highly flexible and extensible, allowing it to support optimistic rollups, and potentially other rollup methods such as ZK-rollups in the future. Godwoken currently uses Proof of Authority based consensus, but will add Proof of Stake as an alternative in the near future.
 
-Godwoken is designed to be used with a second framework which defines the programming model used within the layer 2 environment. Polyjuice is the first such implementation, which provides Ethereum EVM compatibility, but other implementations can be created to support compatibility with other chains such as EOS, Stellar, and Libra.
+Godwoken is designed to be used with a second framework which defines the programming model used within the layer 2 environment. Polyjuice is the first such implementation, which provides Ethereum EVM compatibility. Alternate implementations can be created to support compatibility with programming models from other blockchains, such as EOS, Stellar, and Libra.
 
 [Github](https://github.com/nervosnetwork/godwoken)
 [Documentation](https://github.com/nervosnetwork/godwoken/tree/master/docs)
 
 ## Godwoken Kicker
 
-Godwoken Kicker is a tool which allows developers to quickly launch an instance of Godwoken-Polyjuice Devnet.
+Godwoken Kicker is a tool which allows developers to quickly launch an instance of Godwoken-Polyjuice on a private Devnet. Since this runs on a brand new Devnet chain, there is no need to synchronize the Mainnet or Testnet.
 
 This is useful to developers who need a quick solution to setup an Ethereum compatible Nervos environment to test compatibility with an existing Solidity dapp.
 
