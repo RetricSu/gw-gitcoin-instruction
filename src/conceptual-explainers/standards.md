@@ -22,4 +22,3 @@ The SUDT standard is the Nervos equivalent of the Ethereum ERC20 standard.
 - [ERC20 RFC](https://eips.ethereum.org/EIPS/eip-20)
 
 ## ERC20 Proxy Contract
-
