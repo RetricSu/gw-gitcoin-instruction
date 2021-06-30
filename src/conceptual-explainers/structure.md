@@ -42,3 +42,6 @@ Most layer 2 chains on Nervos will have certain common characteristics:
 - Rely on layer 1 to settle consensus disputes and achieve higher levels of security than would otherwise be possible.
 
 Nervos' first layer 2 offering will utilize the Godwoken and Polyjuice frameworks together to create an Ethereum compatible EVM environment that is capable of supporting Solidity based dapps. This layer 2 chain will be initially run by the Nervos Foundation during the initial launch phase, but will eventually convert into a decentralized chain which is operated by the community. All developers will be able to use this layer 2 chain permissionlessly, using the same tooling that is used for development with Ethereum.
+
+![Layer 1 / Layer 2](images/layer-1-layer-2.png)
+
