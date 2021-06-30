@@ -21,3 +21,4 @@
 6. [Extract private key from Keypering wallet](src/component-tutorials/6.keypering.extract.private.key.md)
 7. [Receive SUDT in Neuron wallet](src/component-tutorials/7.receive.sudt.in.neuron.md)
 8. [Transfer SUDT using "Thunder Issue SUDT" dapp](src/component-tutorials/8.transfer.sudt.thunder.md)
+9. [Mint SUDT using command-line tool](src/component-tutorials/9.issue.sudt.cli.md)
