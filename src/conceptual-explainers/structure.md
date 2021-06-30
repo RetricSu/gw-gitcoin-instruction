@@ -18,6 +18,8 @@ A Devnet is a private network for testing purposes. It is similar to the Aggron 
 
 When a developer begins working on a new dapp, using a Devnet is recommended place to begin. A new network can be created instantly, without having to wait for the network to synchronize. A Devnet uses simulated mining, meaning it is centralized, but extremely efficient and low power to operate. There is no faucet on a Devnet. Instead, there is a well-known account that contains a very large amount of CKBytes which are created in the genesis block. A developer can use the provided private keys to access these CKBytes, which should be more that enough for any necessary testing.
 
+![Network Type Compare](images/network-type-compare.png)
+
 ## Layer 1 / Layer 2
 
 Nervos uses a multi-layer architecture to address the blockchain challenges of security, scalability, and decentralization. Achieving high levels of all three on a single layer is difficult to impossible, and there are always tradeoffs. However, different layers can each address different concerns.
