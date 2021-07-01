@@ -33,10 +33,9 @@ Keypering is created by [Nervina Labs](https://nervina.cn/). Nervina is the deve
 
 ## Neuron Wallet
 
-Neuron is an officially supported desktop wallet for the Nervos ecosystem. This wallet allows for comon Nervos operations such as transferring CKBytes and tokens and interacting with the Nervos DAO.
+Neuron is an officially supported desktop wallet for the Nervos ecosystem. This wallet allows for common Nervos operations such as transferring CKBytes and tokens and interacting with the Nervos DAO. Additional support for NFT assets is currently in the experimental phase.
 
 Neuron is created by [Nervina Labs](https://nervina.cn/). Nervina is the development team for several products in the Nervos ecosystem, such as the [Keypering Wallet](https://nervosnetwork.github.io/keypering/), the [Nervos Explorer](https://explorer.nervos.org/), and several Nervos SDKs.
-
 
 - [Github](https://github.com/nervosnetwork/neuron)
 - [Download](https://github.com/nervosnetwork/neuron/releases)
@@ -47,6 +46,8 @@ Neuron is created by [Nervina Labs](https://nervina.cn/). Nervina is the develop
 ## Portal Wallet
 
 Portal Wallet is a popular browser based wallet for the Nervos ecosystem created by the [Lay2](https://lay2.tech/) development team. This wallet functions similar to a dapp, and allows for common Nervos operations such as transferring CKBytes and tokens and interacting with the Nervos DAO.
+
+This wallet is convinient for users because it works entirely in a web browser and relies on the MetaMask extension for signing. MetaMask is currently the mostly widely used extension for dapp interaction, meaning that in most cases the user does not need to install any additional software.
 
 Lay2 are the developers of the [PW-SDK](https://github.com/lay2dev/pw-core) framework, which is used to power the Portal Wallet. This framework allows Portal Wallet to rely on the MetaMask wallet browser extension for private key management, without any configuration changes.
 

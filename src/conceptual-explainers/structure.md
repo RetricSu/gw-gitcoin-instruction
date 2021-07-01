@@ -6,13 +6,19 @@ Nervos officially supports three different types of networks.
 
 The Mainnet, also known as "Lina", is the live production network for Nervos. This public network is fully decentralized and permissionless, and relies on a robust Proof of Work (PoW) based incentive system to protect all of the assets on the network.
 
+The Mainnet is the network people are referring to when they are talking about the "Nervos Blockchain" or when they casually refer to something being "on CKB". In casual conversation, Mainnet may also refer to any layer 2 network that is also connected connected to the layer 1 Mainnet.
+
 The Testnet, also known as "Aggron", is the public sandbox network. The software used by this network is exactly the same as the Mainnet, but all tokens and assets on the Testnet have no value. This environment provides a safe place for developers to experiment in a realistic shared environment with other developers, without the associated cost or risk.
 
 New features are always tested on the Testnet prior to release on the Mainnet. For this reason, the Testnet may occasionally not have 100% reliability. The Testnet also uses Proof of Work, but because none of the tokens have value, there is only a minimal amount of security provided. Due to the nature of a Testnet, all data there should be viewed as imperminant.
 
-A Devnet is a private network for testing purposes. It is similar to the Aggron Testnet, except that it is not a shared environment. Devnets normally reside entirely on the developer's computer, and are created on-demand as they are needed by the developer. Multiple Devnets can be created as needed, and they can each have slightly different configurations, and be paused or deleted as needed.
+CKBytes on the Testnet have no value, but are still needed for testing. Developers can get free CKBytes from the [faucet](https://faucet.nervos.org/).
 
-When a developer begins working on a new dapp, using a Devnet is recommended place to begin. A new network can be created instantly, without having to wait for the network to synchronize. A Devnet uses simulated mining, meaning it is centralized, but extremely efficient and low power to operate.
+A Devnet is a private network for testing purposes. It is similar to the Aggron Testnet, except that it is not a publicly shared environment. Devnets normally reside entirely on the developer's computer, and are created on-demand as they are needed by the developer. Multiple Devnets can be created as needed, and they can each have slightly different configurations, and be paused or deleted as needed.
+
+When a developer begins working on a new dapp, using a Devnet is recommended place to begin. A new network can be created instantly, without having to wait for the network to synchronize. A Devnet uses simulated mining, meaning it is centralized, but extremely efficient and low power to operate. There is no faucet on a Devnet. Instead, there is a well-known account that contains a very large amount of CKBytes which are created in the genesis block. A developer can use the provided private keys to access these CKBytes, which should be more that enough for any necessary testing.
+
+![Network Type Compare](images/network-type-compare.png)
 
 ## Layer 1 / Layer 2
 
@@ -33,6 +39,40 @@ Most layer 2 chains on Nervos will have certain common characteristics:
 
 - Ability to transfer tokens and other assets to and from layer 1.
 - Process transactions in parallel to the layer 1 chain to achieve higher scalability.
-- Rely on layer 1 to settle disputes and achieve higher levels of security and decentralization.
+- Rely on layer 1 to settle consensus disputes and achieve higher levels of security than would otherwise be possible.
 
-Nervos' first layer 2 offering will utilize the Godwoken and Polyjuice frameworks together to create an Ethereum compatible EVM environment that is capable of supporting Solidity based dapps. This layer 2 chain will be a community run, and will be usable permissionlessly by developers using the same tooling that is used for development with Ethereum.
+Nervos' first layer 2 offering will utilize the Godwoken and Polyjuice frameworks together to create an Ethereum compatible EVM environment that is capable of supporting Solidity based dapps. This layer 2 chain will be initially run by the Nervos Foundation during the initial launch phase, but will eventually convert into a decentralized chain which is operated by the community. All developers will be able to use this layer 2 chain permissionlessly, using the same tooling that is used for development with Ethereum.
+
+![Layer 1 / Layer 2](images/layer-1-layer-2.png)
+
+## Common Developer Stack
+
+### Basic Dapp Stack
+
+- Infrastructure
+	- CKB Node
+	- CKB Indexer
+- Backend
+	- Lumos or PW-SDK
+- Frontend
+	- PW-SDK
+- User
+	- Browser
+	- MetaMask
+
+### EVM Compatible Stack
+
+- Infrastructure
+	- CKB Node
+	- CKB Indexer
+	- Godwoken / Polyjuice
+	- ERC20 Proxy Contract
+- Backend
+	- Lumos or PW-SDK
+- Frontend
+	- PW-SDK
+- User
+	- Browser
+	- MetaMask
+
+## Common User Action Flow
