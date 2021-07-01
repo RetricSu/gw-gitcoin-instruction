@@ -45,3 +45,34 @@ Nervos' first layer 2 offering will utilize the Godwoken and Polyjuice framework
 
 ![Layer 1 / Layer 2](images/layer-1-layer-2.png)
 
+## Common Developer Stack
+
+### Basic Dapp Stack
+
+- Infrastructure
+	- CKB Node
+	- CKB Indexer
+- Backend
+	- Lumos or PW-SDK
+- Frontend
+	- PW-SDK
+- User
+	- Browser
+	- MetaMask
+
+### EVM Compatible Stack
+
+- Infrastructure
+	- CKB Node
+	- CKB Indexer
+	- Godwoken / Polyjuice
+	- ERC20 Proxy Contract
+- Backend
+	- Lumos or PW-SDK
+- Frontend
+	- PW-SDK
+- User
+	- Browser
+	- MetaMask
+
+## Common User Action Flow
