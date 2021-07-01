@@ -79,3 +79,14 @@ All tools rely on the MetaMask wallet exclusively, and run completely in the bro
 - [Github](https://github.com/jordanmack/ckb-tools)
 
 ![CKB.tools](images/ckb-tools.png)
+
+## SUDT-CLI
+
+SUDT-CLI is a tool that allows developers to quickly issue SUDT tokens from the command line. Instead of relying on an external wallet, users must provide a private key in the form of a hex string.
+
+SUDT-CLI supports operation on the public Mainnet and Testnet, and private Devnets including those configured to work with Godwoken.
+
+- [Github](https://github.com/jordanmack/sudt-cli)
+- [Download](https://github.com/jordanmack/sudt-cli/releases)
+
+![SUDT-CLI](images/sudt-cli.png)
