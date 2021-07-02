@@ -1,4 +1,4 @@
-# Challenges
+# Gitcoin Challenges
 
 1. [Create a Godwoken Account on the EVM Layer 2 Testnet](src/challenges/1.create.godwoken.account.md)
 2. [Deploy a simple Ethereum smart contract on Polyjuice](src/challenges/2.deploy.eth.contract.md)
@@ -11,7 +11,7 @@
 9. [Modify the ported app so it supports Ethereum assets via Force Bridge](src/challenges/9.modify.dapp.support.force.bridge.md)
 10. [Modify the ported app so it can be used from a Tron wallet](src/challenges/10.modify.dapp.support.tron.wallet.md)
 
-## Component Tutorials
+# Component Tutorials
 
 1. [Setup Keypering with funds on testnet](src/component-tutorials/1.setup.keypering.with.funds.md)
 2. [Issue SUDT using Thunder Issue dapp](src/component-tutorials/2.issue.sudt.thunder.md)
