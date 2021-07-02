@@ -23,6 +23,6 @@ This is useful to developers who need a quick solution to setup an Ethereum comp
 
 Polyjuice is an Ethereum EVM-compatible execution environment, which allows Solidity based smart contracts to run on Nervos. The goal of the project is 100% compatibility, allowing all Ethereum contracts to run on Nervos without any modification.
 
-Polyjuice is designed to be used with the Godwoken rollup framework. This allows Polyjuice to completely moving smart contract execution to layer 2, and allows scaling far beyond what the Ethereum Mainnet is capable of today.
+Polyjuice is designed to be used with the Godwoken layer 2 rollup framework. This allows Polyjuice to completely move smart contract execution off of layer 1 to layer 2, providing scalability that goes far beyond what the Ethereum Mainnet is capable of today.
 
 - [Github](https://github.com/nervosnetwork/godwoken-polyjuice)
