@@ -8,8 +8,8 @@ Godwoken is highly flexible and extensible, allowing it to support optimistic ro
 
 Godwoken is designed to be used with a second framework which defines the programming model used within the layer 2 environment. Polyjuice is the first such implementation, which provides Ethereum EVM compatibility. Alternate implementations can be created to support compatibility with programming models from other blockchains, such as EOS, Stellar, and Libra.
 
-[Github](https://github.com/nervosnetwork/godwoken)
-[Documentation](https://github.com/nervosnetwork/godwoken/tree/master/docs)
+- [Github](https://github.com/nervosnetwork/godwoken)
+- [Documentation](https://github.com/nervosnetwork/godwoken/tree/master/docs)
 
 ## Godwoken Kicker
 
@@ -17,7 +17,7 @@ Godwoken Kicker is a tool which allows developers to quickly launch an instance 
 
 This is useful to developers who need a quick solution to setup an Ethereum compatible Nervos environment to test compatibility with an existing Solidity dapp.
 
-[Github](https://github.com/RetricSu/godwoken-kicker)
+- [Github](https://github.com/RetricSu/godwoken-kicker)
 
 ## Polyjuice
 
@@ -25,4 +25,4 @@ Polyjuice is an Ethereum EVM-compatible execution environment, which allows Soli
 
 Polyjuice is designed to be used with the Godwoken rollup framework. This allows Polyjuice to completely moving smart contract execution to layer 2, and allows scaling far beyond what the Ethereum Mainnet is capable of today.
 
-[Github](https://github.com/nervosnetwork/godwoken-polyjuice)
+- [Github](https://github.com/nervosnetwork/godwoken-polyjuice)
