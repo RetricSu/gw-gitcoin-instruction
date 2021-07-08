@@ -1,6 +1,6 @@
 # Gitcoin Hackathon Training
 
-# Challenge Setup and Requirements
+## Challenge Setup and Requirements
 
 1. [Challenge Setup and Requirements](src/challenge-setup-and-requirements/challenge-setup-and-requirements.md)
 
