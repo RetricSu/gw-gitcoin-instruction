@@ -52,17 +52,6 @@ Tippy is very useful for developers to manage multiple Devnet chains quickly wit
 
 ![Tippy](images/tippy.png)
 
-## Thunder Issue SUDT
-
-Thunder Issue SUDT is a dapp to manage the creation of SUDT tokens and token meta data. An SUDT token stands for Simple User Defined Token. This is the Nervos equivalent of the Ethereum ERC20 standard, which allows for the creation of basic common tokens.
-
-Thunder Issue SUDT relies on the [Keypering](https://nervosnetwork.github.io/keypering/) wallet for all actions.
-
-- [Official Website](https://udt.ckbapp.dev/)
-- [Github](https://github.com/zmcNotafraid/thunder-issue-SUDT)
-
-- ![Thunder Issue SUDT](images/thunder-issue-sudt.png)
-
 ## CKB.tools
 
 CKB.tools is a online collection of free development tools created for use with Nervos Network.
