@@ -7,7 +7,7 @@ if (!contractName) {
     throw new Error(`No compiled contract specified to deploy. Please put it in "src/examples/2-deploy-contract/artifacts" directory and provide its name as an argument to this program, eg.: "node index.js SimpleStorage.json"`);
 }
 
-const CompiledContractArtifact = require(`./artifacts/${contractName}`);
+const CompiledContractArtifact = require(`./build/contracts/${contractName}`);
 
 const USER_ONE_PRIVATE_KEY = '0xd9066ff9f753a1898709b568119055660a77d9aae4d7a4ad677b8fb3d2a571e5';
 const USER_ONE_ETH_ADDRESS = '0xD173313A51f8fc37BcF67569b463abd89d81844f'; 
@@ -36,7 +36,7 @@ const web3 = new Web3(provider);
 (async () => {
     console.log(`Deploying contract...`);
     const deployTx = new web3.eth.Contract(CompiledContractArtifact.abi).deploy({
-        data: CompiledContractArtifact.data.bytecode.object,
+        data: getBytecodeFromArtifact(CompiledContractArtifact),
         arguments: []
     }).send({
         from: USER_ONE_ETH_ADDRESS,
@@ -50,3 +50,7 @@ const web3 = new Web3(provider);
 
     console.log(`Deployed contract address: ${contract.options.address}`);
 })();
+
+function getBytecodeFromArtifact(contractArtifact) {
+    return contractArtifact.bytecode || contractArtifact.data?.bytecode?.object
+}

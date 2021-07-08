@@ -17,6 +17,7 @@ Throughout our demos and walkthroughs, Ubuntu Linux 20.04 is used. This is the p
 - [Git](https://git-scm.com/)
 - [Node.js 14+](https://nodejs.org/en/)
 - [Yarn](https://classic.yarnpkg.com/lang/en/)
+- [Docker](https://docs.docker.com/get-docker/)
 
 ## Setup Instructions
 
@@ -45,6 +46,10 @@ Yarn can easily be installed using NPM once Node.js is installed.
 npm i -g yarn
 ```
 
+#### Docker
+
+Docker will be used for running Solidity compiler to compile smart-contracts. [You can find informations how to install it on official Docker website.](https://docs.docker.com/get-docker/) If you're using Windows + Windows Subsystem For Linux it will be the easiest if you download and install official "Docker for Windows" desktop application. It makes using Docker easy thanks to graphical interface.
+
 ### MacOS (10.13+)
 
 #### Build Tools + Git
@@ -62,3 +67,7 @@ Yarn can easily be installed using NPM once Node.js is installed.
 ```
 npm i -g yarn
 ```
+
+#### Docker
+
+Docker will be used for running Solidity compiler to compile smart-contracts. [You can find informations how to install it on official Docker website.](https://docs.docker.com/get-docker/)
