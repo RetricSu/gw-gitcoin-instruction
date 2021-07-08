@@ -1,6 +1,6 @@
-# Challenge Setup and Requirements
+# Task Setup and Requirements
 
-This page describes the requirements for participating on the challenges, and also provides guides and links to setup your environment properly.
+This page describes the requirements for participating on the tasks, and also provides guides and links to setup your environment properly.
 
 ## Supported Environments
 
