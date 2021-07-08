@@ -1,5 +1,9 @@
 # Gitcoin Hackathon Training
 
+# Challenge Setup and Requirements
+
+1. [Challenge Setup and Requirements](src/challenge-setup-and-requirements/challenge-setup-and-requirements.md)
+
 ## Gitcoin Tasks
 
 1. [Create a Godwoken Account on the EVM Layer 2 Testnet](src/challenges/1.create.godwoken.account.md)
