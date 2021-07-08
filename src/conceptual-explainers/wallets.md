@@ -18,19 +18,6 @@ When interacting directly with Nervos' layer 1 CKB blockchain, no configuration 
 
 ![Metamask Wallet](images/metamask.png)
 
-## Keypering
-
-Keypering is an officially supported desktop wallet for the Nervos ecosystem, with full native dapp support. Keypering runs as a desktop application with support for Windows, MacOS, and Linux.
-
-Keypering is created by [Nervina Labs](https://nervina.cn/). Nervina is the development team for several products in the Nervos ecosystem, such as the [Neuron Wallet](https://docs.nervos.org/docs/basics/guides/neuron), the [Nervos Explorer](https://explorer.nervos.org/), and several Nervos SDKs.
-
-- [Official Website](https://nervosnetwork.github.io/keypering/)
-- [Github](https://github.com/nervosnetwork/keypering)
-- [Download](https://github.com/nervosnetwork/keypering/releases)
-- [Documentation](https://nervosnetwork.github.io/keypering/#/manual)
-
-![Keypering Wallet](images/keypering.png)
-
 ## Neuron Wallet
 
 Neuron is an officially supported desktop wallet for the Nervos ecosystem. This wallet allows for common Nervos operations such as transferring CKBytes and tokens and interacting with the Nervos DAO. Additional support for NFT assets is currently in the experimental phase.

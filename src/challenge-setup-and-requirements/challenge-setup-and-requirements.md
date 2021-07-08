@@ -1,4 +1,4 @@
-# Challenge Requirements and Setup
+# Challenge Setup and Requirements
 
 This page describes the requirements for participating on the challenges, and also provides guides and links to setup your environment properly.
 
