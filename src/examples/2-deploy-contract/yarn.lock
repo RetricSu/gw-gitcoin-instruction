@@ -1165,13 +1165,13 @@
     "@nodelib/fs.scandir" "2.1.5"
     fastq "^1.6.0"
 
-"@polyjuice-provider/base@0.0.1-rc4":
-  version "0.0.1-rc4"
-  resolved "https://registry.yarnpkg.com/@polyjuice-provider/base/-/base-0.0.1-rc4.tgz#8cd6a29c2b1d3429b57af432a6d96af1bf8c7495"
-  integrity sha512-b+jfwaf16FsThQk5WjTNzKbMYHx+ZNfXNPGgP2NrQsr+/FoLZ53R7V/qQxqXL06kg/8B322UEqzQSceicjXHpA==
+"@polyjuice-provider/base@0.0.1-rc5":
+  version "0.0.1-rc5"
+  resolved "https://registry.yarnpkg.com/@polyjuice-provider/base/-/base-0.0.1-rc5.tgz#17c68770860106ff9525919e73357aa84bdb34df"
+  integrity sha512-qCnCJbUnfxIpCmnkuEffsTxp2MfpvqEQhX/okjQAOWfg5qsbDRmPe63/ELUvHLtk+4epDcSUcuaGoxNLqPDqyQ==
   dependencies:
     "@ckb-lumos/base" "^0.16.0"
-    "@polyjuice-provider/godwoken" "^0.0.1-rc4"
+    "@polyjuice-provider/godwoken" "^0.0.1-rc5"
     buffer "^6.0.3"
     encoding "^0.1.13"
     eth-sig-util "^3.0.1"
@@ -1180,22 +1180,22 @@
     web3 "^1.3.4"
     xhr2-cookies "^1.1.0"
 
-"@polyjuice-provider/godwoken@^0.0.1-rc4":
-  version "0.0.1-rc4"
-  resolved "https://registry.yarnpkg.com/@polyjuice-provider/godwoken/-/godwoken-0.0.1-rc4.tgz#e72b021069984d7798637c88ae5d7110e39b8fa6"
-  integrity sha512-NzJbsoirL/pTVz8p1gPMN25k3VRhACOWPIArMfUhos7lZjog9kZZI2vK+pfoNIgduG66lh9khp7rgPMhzH50lg==
+"@polyjuice-provider/godwoken@^0.0.1-rc5":
+  version "0.0.1-rc5"
+  resolved "https://registry.yarnpkg.com/@polyjuice-provider/godwoken/-/godwoken-0.0.1-rc5.tgz#75d48ad354eede4b7ada7b7f5a231eb15f08761e"
+  integrity sha512-RjxEI9KSYF5lY/CJMMlj2m8xa+7krkh2kRNX/zrz9l2xwB4Q7dP1eBiM//P/3vWH/XnbVbH5g8g08g7mY1KSUg==
   dependencies:
     "@ckb-lumos/base" "^0.16.0"
     ckb-js-toolkit "^0.9.3"
     immutable "^4.0.0-rc.12"
     keccak256 "^1.0.2"
 
-"@polyjuice-provider/web3@^0.0.1-rc4":
-  version "0.0.1-rc4"
-  resolved "https://registry.yarnpkg.com/@polyjuice-provider/web3/-/web3-0.0.1-rc4.tgz#21171552acaaf0e5008f8b6a2e42bbbbe0e07765"
-  integrity sha512-O40qJJFDsoOG1fhCkJvbW5Y51wd7EdOAy1oAJN0Ue36AsM1w3+HOWAVHCVvV+zO1tj2q6XjD1EHY0pToKu9JEg==
+"@polyjuice-provider/web3@^0.0.1-rc5":
+  version "0.0.1-rc5"
+  resolved "https://registry.yarnpkg.com/@polyjuice-provider/web3/-/web3-0.0.1-rc5.tgz#f73c52488e336c3f197c3f7e548da8dfa8a19709"
+  integrity sha512-P0XWptxnT2MkOz6XuWL8n+J7vOa47MSZD7RAVx92IfMrJiaK4XOlkk45xU364paeBaRIevj6WDMkmhpNfc2Rbg==
   dependencies:
-    "@polyjuice-provider/base" "0.0.1-rc4"
+    "@polyjuice-provider/base" "0.0.1-rc5"
     buffer "^6.0.3"
     encoding "^0.1.13"
     web3 "^1.4.0"
