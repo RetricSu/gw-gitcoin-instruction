@@ -12,10 +12,8 @@
 4. [Issue an SUDT token on Layer 1, then deposit it into Polyjuice on Layer 2](src/tasks/4.issue.sudt.deposit.md)
 5. [Deploy the ERC20 proxy contract for the deposited SUDT in step 2](src/tasks/5.deploy.erc20.proxy.contract.md)
 6. [Use force bridge to deposit tokens on Ethereum to polyjuice](src/tasks/6.use.force.bridge.to.deposit.md)
-7. [Use Tron wallet to issue a smart contract call to a deployed smart contract(this contract can be deployed by us)](src/tasks/7.use.tron.call.contract.md)
-8. [Port an existing Ethereum app and make it runnable on Polyjuice](src/tasks/8.port.eth.dapp.md)
-9. [Modify the ported app so it supports Ethereum assets via Force Bridge](src/tasks/9.modify.dapp.support.force.bridge.md)
-10. [Modify the ported app so it can be used from a Tron wallet](src/tasks/10.modify.dapp.support.tron.wallet.md)
+7. [Port an existing Ethereum app and make it runnable on Polyjuice](src/tasks/7.port.eth.dapp.md)
+8. [Modify the ported app so it supports Ethereum assets via Force Bridge](src/tasks/8.modify.dapp.support.force.bridge.md)
 
 ## Component Tutorials
 
