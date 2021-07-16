@@ -12,13 +12,17 @@ Throughout our demos and walkthroughs, Ubuntu Linux 20.04 is used. This is the p
 - [MacOS](https://www.apple.com/macos/) (Big Sur 11.0+)
 - [Windows 10](https://www.microsoft.com/en-us/windows) + [WSL2](https://docs.microsoft.com/en-us/windows/wsl/about) (Ubuntu 20.04 virtualized)
 
-## Prerequisite Software
+## Prerequisite Development Software
 
 - Build Tools
 - [Git](https://git-scm.com/)
 - [Node.js 14+](https://nodejs.org/en/)
 - [Yarn](https://classic.yarnpkg.com/lang/en/)
 - [Docker](https://docs.docker.com/get-docker/)
+
+## Prerequisite Wallet Software
+
+- [MetaMask](https://metamask.io/download.html)
 
 ## Setup Instructions
 
