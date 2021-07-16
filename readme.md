@@ -1,5 +1,9 @@
 # Gitcoin Hackathon Training
 
+## Introduction
+
+1. Welcome to the Gitcoin Hackathon Training
+
 ## Task Setup and Requirements
 
 1. [Task Setup and Requirements](src/task-setup-and-requirements/task-setup-and-requirements.md)
