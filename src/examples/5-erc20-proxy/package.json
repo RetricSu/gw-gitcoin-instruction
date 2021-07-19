@@ -1,13 +1,13 @@
 {
-  "name": "2-deploy-contract",
+  "name": "5-erc20-proxy",
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
   "dependencies": {
     "@polyjuice-provider/base": "0.0.1-rc5",
     "@polyjuice-provider/web3": "0.0.1-rc5",
-    "truffle": "^5.3.14",
-    "web3": "^1.3.6"
+    "truffle": "5.3.14",
+    "web3": "1.3.6"
   },
   "scripts": {
     "compile": "truffle compile"
