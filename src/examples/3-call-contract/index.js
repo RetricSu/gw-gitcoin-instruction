@@ -11,7 +11,7 @@ const { PolyjuiceHttpProvider, PolyjuiceAccounts } = require("@polyjuice-provide
  */
 
 const ACCOUNT_PRIVATE_KEY = '0xd9066ff9f753a1898709b568119055660a77d9aae4d7a4ad677b8fb3d2a571e5';
-const CONTRACT_ABI = '<YOUR_CONTRACT_ABI>'; // this should be an Array
+const CONTRACT_ABI = ['<YOUR_CONTRACT_ABI>']; // this should be an Array []
 const CONTRACT_ADDRESS = '<YOUR_CONTRACT_ADDRESS>';
 
 const GODWOKEN_RPC_URL = 'http://godwoken-testnet-web3-rpc.ckbapp.dev';
@@ -54,7 +54,7 @@ async function writeCall() {
         }
     );
 
-    tx.on('transactionHash', hash => console.log(`Transaction hash: ${hash}`));
+    tx.on('transactionHash', hash => console.log(`Write call transaction hash: ${hash}`));
 
     const receipt = await tx;
 
@@ -70,6 +70,13 @@ async function writeCall() {
     }
 
     console.log('Calling contract...');
+
+    // Check smart contract state after state change.
     await readCall();
+
+    // Change smart contract state.
     await writeCall();
+
+    // Check smart contract state after state change.
+    await readCall();
 })();
