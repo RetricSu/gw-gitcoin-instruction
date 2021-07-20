@@ -2,7 +2,7 @@
 
 ## Introduction
 
-1. Welcome to the Gitcoin Hackathon Training
+1. [Introduction](src/introduction/introduction.md)
 
 ## Task Setup and Requirements
 
