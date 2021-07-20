@@ -30,6 +30,9 @@
 7. [Receive an SUDT in Neuron wallet](src/component-tutorials/7.receive.sudt.in.neuron.md)
 8. [Transfer SUDT Using Thunder Issue SUDT](src/component-tutorials/8.transfer.sudt.thunder.md)
 9. [Mint SUDT Using Command-Line Tool](src/component-tutorials/9.issue.sudt.cli.md)
+10. [Setup a Nervos CKB Layer 1 Account with CKBytes](src/component-tutorials/10.setup.account.in.ckb.cli)
+11. [Create a Godwoken Account by Making a Layer 2 Deposit](src/component-tutorials/11.layer2.deposit.md)
+12. [Setup and use `account-cli` tool](src/component-tutorials/12.setup.and.use.account.cli.md)
 
 ## Conceptual Explainers
 
