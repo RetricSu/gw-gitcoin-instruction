@@ -58,5 +58,4 @@
 - Structure
 	1. [Mainnet/Testnet/Devnet](src/conceptual-explainers/structure.md#mainnet--testnet--devnet)
 	2. [Layer 1/Layer 2](src/conceptual-explainers/structure.md#layer-1--layer-2)
-	3. Common Developer Stack
-	4. Common User Action Flow
+	3. [Common User Action Flow](src/conceptual-explainers/structure.md#common-user-action-flow)
