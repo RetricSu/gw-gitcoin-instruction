@@ -7,6 +7,7 @@
     "@ckb-lumos/base": "^0.16.0",
     "@polyjuice-provider/base": "0.0.1-rc5",
     "@polyjuice-provider/web3": "0.0.1-rc5",
+    "nervos-godwoken-integration": "0.0.2",
     "truffle": "5.3.14",
     "web3": "1.3.6"
   },
