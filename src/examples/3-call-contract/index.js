@@ -5,13 +5,13 @@ const { PolyjuiceHttpProvider, PolyjuiceAccounts } = require("@polyjuice-provide
  * BEFORE USING THIS SCRIPT MAKE SURE TO REPLACE:
  * - <YOUR_CONTRACT_ABI>
  * - <YOUR_CONTRACT_ADDRESS>
- * - CONTRACT_ADDRESS variable value
- * - YOUR_READ_FUNCTION_NAME method name
- * - YOUR_WRITE_FUNCTION_NAME method name
+ * - <YOUR_CONTRACT_ADDRESS>
+ * - <YOUR_READ_FUNCTION_NAME>
+ * - <YOUR_WRITE_FUNCTION_NAME>
  */
 
-const ACCOUNT_PRIVATE_KEY = '0xd9066ff9f753a1898709b568119055660a77d9aae4d7a4ad677b8fb3d2a571e5';
-const CONTRACT_ABI = ['<YOUR_CONTRACT_ABI>']; // this should be an Array []
+const ACCOUNT_PRIVATE_KEY = '<YOUR_PRIVATE_KEY>';
+const CONTRACT_ABI = [<YOUR_CONTRACT_ABI>]; // this should be an Array []
 const CONTRACT_ADDRESS = '<YOUR_CONTRACT_ADDRESS>';
 
 const GODWOKEN_RPC_URL = 'http://godwoken-testnet-web3-rpc.ckbapp.dev';
@@ -35,7 +35,7 @@ web3.eth.Contract.setProvider(provider, web3.eth.accounts);
 async function readCall() {
     const contract = new web3.eth.Contract(CONTRACT_ABI, CONTRACT_ADDRESS);
 
-    const callResult = await contract.methods.YOUR_READ_FUNCTION_NAME().call({
+    const callResult = await contract.methods.<YOUR_READ_FUNCTION_NAME>().call({
         from: account.address
     });
 
@@ -45,7 +45,7 @@ async function readCall() {
 async function writeCall() {
     const contract = new web3.eth.Contract(CONTRACT_ABI, CONTRACT_ADDRESS);
 
-    const tx = contract.methods.YOUR_WRITE_FUNCTION_NAME().send(
+    const tx = contract.methods.<YOUR_WRITE_FUNCTION_NAME>().send(
         {
             from: account.address,
             to: '0x' + new Array(40).fill(0).join(''),
