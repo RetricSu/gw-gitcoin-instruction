@@ -11,7 +11,7 @@ const { PolyjuiceHttpProvider, PolyjuiceAccounts } = require("@polyjuice-provide
  */
 
 const ACCOUNT_PRIVATE_KEY = '<YOUR_ETHEREUM_PRIVATE_KEY>'; // Replace this with your Ethereum private key with funds on Layer 2.
-const CONTRACT_ABI = ['<YOUR_CONTRACT_ABI>']; // this should be an Array []
+const CONTRACT_ABI = [<YOUR_CONTRACT_ABI>]; // this should be an Array []
 const CONTRACT_ADDRESS = '<YOUR_CONTRACT_ADDRESS>';
 
 const GODWOKEN_RPC_URL = 'http://godwoken-testnet-web3-rpc.ckbapp.dev';
