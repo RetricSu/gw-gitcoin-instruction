@@ -21,18 +21,13 @@
 
 ## Component Tutorials
 
-1. ~~[Setup Keypering with Funds on Testnet](src/component-tutorials/1.setup.keypering.with.funds.md)~~
-2. ~~[Issue SUDT using Thunder Issue dApp](src/component-tutorials/2.issue.sudt.thunder.md)~~
-3. [Compile and Deploy a Smart Contract on Godwoken, then Read and Write Values](src/component-tutorials/3.compile.deploy.smart.contract.md)
-4. [Install MetaMask and Set the Network to Godwoken](src/component-tutorials/4.setup.metamask.md)
-5. Setup and Sync a CKB Node, CKB Indexer, and install CKB-CLI
-6. ~~[Extract Private Key from Keypering Wallet](src/component-tutorials/6.keypering.extract.private.key.md)~~
+1. [Setup a Nervos CKB Layer 1 Account with CKBytes](src/component-tutorials/1.setup.account.in.ckb.cli.md)
+2. [Mint SUDT Using Command-Line Tool](src/component-tutorials/2.issue.sudt.cli.md)
+3. [Setup and use `account-cli` tool](src/component-tutorials/3.setup.and.use.account.cli.md)
+4. [Create a Godwoken Account by Making a Layer 2 Deposit](src/component-tutorials/4.layer2.deposit.md)
+5. [Extracting a Private Key from MetaMask Wallet](src/component-tutorials/5.extract.ethereum.private.key.md)
+6. [Setup and sync CKB testnet node, indexer and install `ckb-cli`](src/component-tutorials/6.setup.testnet.node.md)
 7. [Receive an SUDT in Neuron wallet](src/component-tutorials/7.receive.sudt.in.neuron.md)
-8. [Transfer SUDT Using Thunder Issue SUDT](src/component-tutorials/8.transfer.sudt.thunder.md)
-9. [Mint SUDT Using Command-Line Tool](src/component-tutorials/9.issue.sudt.cli.md)
-10. [Setup a Nervos CKB Layer 1 Account with CKBytes](src/component-tutorials/10.setup.account.in.ckb.cli)
-11. [Create a Godwoken Account by Making a Layer 2 Deposit](src/component-tutorials/11.layer2.deposit.md)
-12. [Setup and use `account-cli` tool](src/component-tutorials/12.setup.and.use.account.cli.md)
 
 ## Conceptual Explainers
 
