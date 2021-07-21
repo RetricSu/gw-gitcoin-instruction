@@ -1,16 +1,16 @@
 # Task Setup and Requirements
 
-This page describes the requirements for participating on the tasks, and also provides guides and links to setup your environment properly.
+This page describes the requirements for participating on the tasks. Here you will find links and guides to setup your environment properly.
 
 ## Supported Environments
 
 The following operating systems are officially supported. Other operating systems may also be compatible, but have not officially been tested for compability by our teams.
 
-Throughout our demos and walkthroughs, Ubuntu Linux 20.04 is used. This is the preferred platform.
-
 - [Ubuntu Linux 20.04](https://ubuntu.com/) (Desktop or Server edition)
 - [MacOS](https://www.apple.com/macos/) (Big Sur 11.0+)
 - [Windows 10](https://www.microsoft.com/en-us/windows) + [WSL2](https://docs.microsoft.com/en-us/windows/wsl/about) (Ubuntu 20.04 virtualized)
+
+> Note: Throughout our demos and walkthroughs, Ubuntu Linux 20.04 is used. This is the preferred platform.
 
 ## Prerequisite Development Software
 
@@ -53,7 +53,9 @@ npm i -g yarn
 
 #### Docker
 
-Docker will be used for running Solidity compiler to compile smart-contracts. [You can find informations how to install it on official Docker website.](https://docs.docker.com/get-docker/) If you're using Windows + Windows Subsystem For Linux it will be the easiest if you download and install official "Docker for Windows" desktop application. It makes using Docker easy thanks to graphical interface.
+Docker will be used for running Solidity compiler to compile smart-contracts. You can find informations how to install it on official [Docker website](https://docs.docker.com/get-docker/). If you're using Windows + Windows Subsystem For Linux it will be the easiest if you download and install official "Docker for Windows" desktop application. It makes using Docker easy thanks to graphical interface.
+
+> Note: The current user must have permission to manage Docker instances. [How to manage Docker as a non-root user](https://docs.docker.com/engine/install/linux-postinstall/).
 
 ### MacOS (10.13+)
 
@@ -75,4 +77,6 @@ npm i -g yarn
 
 #### Docker
 
-Docker will be used for running Solidity compiler to compile smart-contracts. [You can find informations how to install it on official Docker website.](https://docs.docker.com/get-docker/)
+Docker will be used for running Solidity compiler to compile smart-contracts. You can find informations how to install it on official [Docker website](https://docs.docker.com/get-docker/).
+
+> Note: The current user must have permission to manage Docker instances. [How to manage Docker as a non-root user](https://docs.docker.com/engine/install/linux-postinstall/).
