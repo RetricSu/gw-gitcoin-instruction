@@ -23,10 +23,10 @@ Nervos can also support ERC20 tokens directly using Ethereum EVM compatibility p
 
 ## ERC20 Proxy Contract
 
-The ERC20 Proxy Contract is a special smart contract written in Solidity, which is designed to run on a layer 2 network utilizing the Godwoken and Polyjuice frameworks. This contract provides the functionality to move tokens back and forth between layer 1 and layer 2. This allows a user to exchange an SUDT on Layer 1 for an equivalent ERC20 on Layer 2.
+The ERC20 Proxy Contract is a special smart contract written in Solidity, which is designed to run on a layer 2 network utilizing the [Godwoken](../conceptual-explainers/frameworks.md#godwoken) and [Polyjuice](../conceptual-explainers/frameworks.md#polyjuice) frameworks. This contract provides a way for EVM code to interact with an ERC20 token interface that is interfacing directly with Polyjuice to control SUDT tokens on Layer 2 as if they were ERC20 tokens.
 
-A deposit transaction is prepared on Layer 1 which takes the tokens being deposited and locks them, effectively taking them out of circulation. On Layer 2, the ERC20 proxy contract will then mint the equivalent amount of ERC20 tokens for the user who made the deposit.
+A deposit transaction is prepared on Layer 1 which takes the SUDT tokens and sends them to Godwoken to be locked, effectively taking them out of circulation on Layer 1. Godwoken will then issue the equivalent amount of SUDT tokens on Layer 2 for the user who deposited. The ERC20 Proxy Contract can then be used to view or transfer these layer 2 SUDT tokens.
 
-A withdrawl follows the same process in reverse. The ERC20 tokens on Layer 2 are deposited into the ERC20 Proxy Contract where they are burned. The equivalent number of locked SUDT tokens are then sent to the user on Layer 1.
+A withdrawl follows the same process in reverse. The ERC20 Proxy Contract is used to send the layer 2 SUDT tokens to Godwoken where they are burned. The equivalent number of locked SUDT tokens on Layer 1 are then released back to the user.
 
 - [Github](https://github.com/nervosnetwork/godwoken-polyjuice/tree/main/solidity/erc20)
