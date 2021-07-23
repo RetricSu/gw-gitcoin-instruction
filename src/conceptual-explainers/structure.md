@@ -46,3 +46,21 @@ Nervos' first layer 2 offering will utilize the Godwoken and Polyjuice framework
 ![Layer 1 / Layer 2](images/layer-1-layer-2.png)
 
 ## Common User Action Flow
+
+The dApp universe is expanding rapidly, but the majority of users are still on Ethereum. Because of this, support for Ethereum users is high priority for all dApp developers, and interoperability is essential for upcoming blockchains.
+
+Recognizing this reality is one of the driving factors in Nervos' infrastructure design considerations. Nervos' interoperability is achieved with other blockchains by providing key pieces of infrastructure. One is [Force Bridge](./infrastructure.md#force-bridge), which allows tokens and assets to transfer to and from other blockchains seamlessly. Another is [PW-SDK](./frameworks.md#pw-sdk), a interoperability framework that allows users from different blockchains to immediately interact with Nervos Network using their existing dApp wallets.
+
+An average Ethereum user will be able to transfer assets from other blockchains to Nervos using [Force Bridge](./infrastructure.md#force-bridge). Once the bridge transfer is complete, tokens and assets that were transferred over the bridge will reside on Nervos' [Layer 1](#layer-1--layer-2) blockchain. From there they can navigate through the Nervos ecosystem, interacting with dApps on Layer 1, or [Layer 2](#layer-1--layer-2).
+
+![Common User Action Flow](images/common-user-flow.jpg)
+
+The image above shows how an Ethereum user would start from the Ethereum blockchain, and end up interacting with a Solidity smart contract that is running on Nervos. The steps are as follows:
+
+1. The user starts with assets, such as ETH, DAI, USDC, and USDC, in their MetaMask wallet.
+2. The user opens Force Bridge in a web browser, and initiates an asset transfer to Nervos.
+3. Force Bridge validates their deposit transaction, and issues a wrapped token, in the form of an [SUDT](./standards.md#sudt) on Layer 1.
+4. The user would then use a dApp to deposit their SUDT assets from Layer 1 to the Layer 2 which has EVM compatibility provided by the [Godwoken](./frameworks.md#godwoken) and [Polyjuice](./frameworks.md#polyjuice) frameworks.
+5. The user would then continue interacting with the dApp, and enjoy the benefits of Layer 2, such as extremely low fees and high transaction speed.
+
+In the future this process will likely be streamlined. Developers will have the option of integrating directly with Force Bridge and can combine steps 2-4 into a single action which is done without leaving the dApp. The user will only need to use their existing MetaMask wallet throughout the entire process. They may not even be aware they have left Ethereum and are now using Nervos!
