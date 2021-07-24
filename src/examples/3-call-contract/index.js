@@ -65,7 +65,7 @@ async function writeCall() {
     const balance = BigInt(await web3.eth.getBalance(account.address));
 
     if (balance === 0n) {
-        console.log(`Insufficient balance. Can't issue a smart-contract call. Please deposit funds to your Ethereum address: ${account.address}`);
+        console.log(`Insufficient balance. Can't issue a smart contract call. Please deposit funds to your Ethereum address: ${account.address}`);
         return;
     }
 
