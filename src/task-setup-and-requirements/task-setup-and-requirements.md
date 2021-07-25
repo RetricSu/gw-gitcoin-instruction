@@ -53,7 +53,7 @@ npm i -g yarn
 
 #### Docker
 
-Docker will be used for running Solidity compiler to compile smart-contracts. You can find informations how to install it on official [Docker website](https://docs.docker.com/get-docker/). If you're using Windows + Windows Subsystem For Linux it will be the easiest if you download and install official "Docker for Windows" desktop application. It makes using Docker easy thanks to graphical interface.
+Docker will be used for running Solidity compiler to compile smart contracts. You can find informations how to install it on official [Docker website](https://docs.docker.com/get-docker/). If you're using Windows + Windows Subsystem For Linux it will be the easiest if you download and install official "Docker for Windows" desktop application. It makes using Docker easy thanks to graphical interface.
 
 > Note: The current user must have permission to manage Docker instances. [How to manage Docker as a non-root user](https://docs.docker.com/engine/install/linux-postinstall/).
 
@@ -77,6 +77,6 @@ npm i -g yarn
 
 #### Docker
 
-Docker will be used for running Solidity compiler to compile smart-contracts. You can find informations how to install it on official [Docker website](https://docs.docker.com/get-docker/).
+Docker will be used for running Solidity compiler to compile smart contracts. You can find informations how to install it on official [Docker website](https://docs.docker.com/get-docker/).
 
 > Note: The current user must have permission to manage Docker instances. [How to manage Docker as a non-root user](https://docs.docker.com/engine/install/linux-postinstall/).
