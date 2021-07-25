@@ -2,10 +2,7 @@ const Web3 = require('web3');
 const { PolyjuiceHttpProvider } = require("@polyjuice-provider/web3");
 const { AddressTranslator } = require('nervos-godwoken-integration');
 
-const CompiledContractArtifact = require(`./build/contracts/ERC20.json`);
-
 const ETHEREUM_ADDRESS = '<YOUR_ETHEREUM_ADDRESS>';
-const SUDT_PROXY_CONTRACT_ADDRESS = '<YOUR_SUDT_PROXY_CONTRACT_ADDRESS>';
 
 const GODWOKEN_RPC_URL = 'http://godwoken-testnet-web3-rpc.ckbapp.dev';
 const polyjuiceConfig = {
@@ -25,12 +22,9 @@ const web3 = new Web3(provider);
     console.log(`Using Ethereum address: ${ETHEREUM_ADDRESS}`);
     const addressTranslator = new AddressTranslator();
     const polyjuiceAddress = addressTranslator.ethAddressToGodwokenShortAddress(ETHEREUM_ADDRESS);
-    console.log(`Corresponding Polyjuice address: ${polyjuiceAddress}`);
+    console.log(`Corresponding Polyjuice address: ${polyjuiceAddress}\n`);
 
-    console.log(`Checking SUDT balance using proxy contract with address: ${SUDT_PROXY_CONTRACT_ADDRESS}...`);
+    const depositAddress = await addressTranslator.getLayer2DepositAddress(web3, ETHEREUM_ADDRESS);
 
-    const contract = new web3.eth.Contract(CompiledContractArtifact.abi, SUDT_PROXY_CONTRACT_ADDRESS);
-    console.log(await contract.methods.balanceOf(polyjuiceAddress).call({
-        from: ETHEREUM_ADDRESS
-    }));
+    console.log(`Deposit to Layer 2 address on Layer 1: \n${depositAddress.addressString}`);
 })();
