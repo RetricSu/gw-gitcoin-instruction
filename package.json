@@ -1,0 +1,15 @@
+{
+  "name": "gw-gitcoin-instruction",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:jordanmack/gw-gitcoin-instruction.git",
+  "author": "Nervos",
+  "license": "MIT",
+  "scripts": {
+    "install-2": "yarn install --cwd src/examples/2-deploy-contract",
+    "install-3": "yarn install --cwd src/examples/3-call-contract",
+    "install-5": "yarn install --cwd src/examples/5-erc20-proxy",
+    "install-6": "yarn install --cwd src/examples/6-bridge",
+    "install-all": "yarn run install-2 && yarn run install-3 && yarn run install-5 && yarn run install-6"
+  }
+}
