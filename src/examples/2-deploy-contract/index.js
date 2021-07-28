@@ -17,7 +17,7 @@ const polyjuiceConfig = {
     ethAccountLockCodeHash: '0xfcf093a5f1df4037cea259d49df005e0e7258b4f63e67233eda5b376b7fd2290',
     web3Url: GODWOKEN_RPC_URL
 };
-  
+
 const provider = new PolyjuiceHttpProvider(
     GODWOKEN_RPC_URL,
     polyjuiceConfig,
