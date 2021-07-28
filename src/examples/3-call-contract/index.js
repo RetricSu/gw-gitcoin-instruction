@@ -71,7 +71,7 @@ async function writeCall() {
 
     console.log('Calling contract...');
 
-    // Check smart contract state after state change.
+    // Check smart contract state before state change.
     await readCall();
 
     // Change smart contract state.
