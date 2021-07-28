@@ -17,6 +17,7 @@ The following operating systems are officially supported. Other operating system
 - Build Tools
 - [Git](https://git-scm.com/)
 - [Node.js 14+](https://nodejs.org/en/)
+- Python 2.7.x
 - [Yarn](https://classic.yarnpkg.com/lang/en/)
 - [Docker](https://docs.docker.com/get-docker/)
 
@@ -43,6 +44,14 @@ For full compatibility, a newer version is needed. This can be done using the av
 - [Node.js Install](https://github.com/nodesource/distributions/blob/master/README.md#debinstall)
 - [NVM Install](https://github.com/nvm-sh/nvm#installing-and-updating)
 
+#### Python 2.7.x
+
+Ubuntu 20.04 ships with Python 3.8.x installed, but Python 2.7.x is still available for compatibility with old tooling using the `python` package.
+
+```sh
+sudo apt install python
+```
+
 #### Yarn
 
 Yarn can easily be installed using NPM once Node.js is installed.
@@ -66,6 +75,10 @@ Download and install the Xcode Command Line Tools from [developer.apple.com](htt
 #### Node.js
 
 Node.js provides a MacOS installer which can be found on the [Node.js Download page](https://nodejs.org/en/download/).
+
+#### Python 2.7.x
+
+To install Python 2.7.x on MacOS, please visit the official Python [download](https://www.python.org/downloads/release/python-2718/) page.
 
 #### Yarn
 
