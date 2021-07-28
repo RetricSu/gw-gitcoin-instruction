@@ -568,6 +568,24 @@
     immutable "^4.0.0-rc.12"
     js-xxhash "^1.0.4"
 
+"@ckb-lumos/config-manager@^0.16.0":
+  version "0.16.0"
+  resolved "https://registry.yarnpkg.com/@ckb-lumos/config-manager/-/config-manager-0.16.0.tgz#ddff6bf76f9f7b50f5005f8f45120cffc40f1e3e"
+  integrity sha512-NoctI6I1/SsVxzuwIbl4Qy4CCtmGPQxxTQr53zI5Jo3UAngrlVpj+fDWOjhAcR8r1U7IZRttJmNeye06JU6I/w==
+  dependencies:
+    deep-freeze-strict "^1.1.1"
+
+"@ckb-lumos/helpers@^0.16.0":
+  version "0.16.0"
+  resolved "https://registry.yarnpkg.com/@ckb-lumos/helpers/-/helpers-0.16.0.tgz#044e5581ae1e45244881dd011791622135c28374"
+  integrity sha512-FYNQTHEfkjHmwXetznWrkodXrBAo+Thqp7G4wMU9RkipAUHUxUxBF93+lhKprSUR1jfEmZrIsjikYvLGYGgiFQ==
+  dependencies:
+    "@ckb-lumos/base" "^0.16.0"
+    "@ckb-lumos/config-manager" "^0.16.0"
+    bech32 "^1.1.4"
+    ckb-js-toolkit "^0.10.2"
+    immutable "^4.0.0-rc.12"
+
 "@consento/sync-randombytes@^1.0.4", "@consento/sync-randombytes@^1.0.5":
   version "1.0.5"
   resolved "https://registry.yarnpkg.com/@consento/sync-randombytes/-/sync-randombytes-1.0.5.tgz#5be6bc58c6a6fa6e09f04cc684d037e29e6c28d5"
@@ -4192,6 +4210,11 @@ deep-extend@^0.6.0:
   version "0.6.0"
   resolved "https://registry.yarnpkg.com/deep-extend/-/deep-extend-0.6.0.tgz#c4fa7c95404a17a9c3e8ca7e1537312b736330ac"
   integrity sha512-LOHxIOaPYdHlJRtCQfDIVZtfw/ufM8+rVj649RIHzcm/vGwQRXFt6OPqIFWsm2XEMrNIEtWR64sY1LEKD2vAOA==
+
+deep-freeze-strict@^1.1.1:
+  version "1.1.1"
+  resolved "https://registry.yarnpkg.com/deep-freeze-strict/-/deep-freeze-strict-1.1.1.tgz#77d0583ca24a69be4bbd9ac2fae415d55523e5b0"
+  integrity sha1-d9BYPKJKab5LvZrC+uQV1VUj5bA=
 
 deep-is@~0.1.3:
   version "0.1.3"
@@ -7904,12 +7927,13 @@ negotiator@0.6.2:
   resolved "https://registry.yarnpkg.com/negotiator/-/negotiator-0.6.2.tgz#feacf7ccf525a77ae9634436a64883ffeca346fb"
   integrity sha512-hZXc7K2e+PgeI1eDBe/10Ard4ekbfrrqG8Ep+8Jmf4JID2bNg7NvCPOZN+kfF574pFQI7mum2AUqDidoKqcTOw==
 
-nervos-godwoken-integration@0.0.2:
-  version "0.0.2"
-  resolved "https://registry.yarnpkg.com/nervos-godwoken-integration/-/nervos-godwoken-integration-0.0.2.tgz#47089c742809cf2ced466aecfbb056c22ac44be5"
-  integrity sha512-6HuJRyNgFAtqfJVd1wyYgrAv42/0rROXen8oi6jdIx3ECnzOS/mB/iRwao7yzF5DTL2IvTAoKWfrjewIuTTIkA==
+nervos-godwoken-integration@0.0.3:
+  version "0.0.3"
+  resolved "https://registry.yarnpkg.com/nervos-godwoken-integration/-/nervos-godwoken-integration-0.0.3.tgz#6449f6b475f74dac81544cc46422034b22045fb5"
+  integrity sha512-hJK3mJ/LFODphEyaA04USiIzaoHhw3XJ9GSs/ujW3a1qaxQKVV4AXk2nfZkWzfn5vHVF1pNkWEPpxbooi7cIqA==
   dependencies:
     "@ckb-lumos/base" "^0.16.0"
+    "@ckb-lumos/helpers" "^0.16.0"
     "@lay2/pw-core" "0.4.0-alpha.9"
     "@nervosnetwork/ckb-types" "^0.39.0"
     ckb-js-toolkit "^0.10.2"
