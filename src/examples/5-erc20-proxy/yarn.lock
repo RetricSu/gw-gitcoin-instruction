@@ -1568,13 +1568,13 @@
     "@nodelib/fs.scandir" "2.1.5"
     fastq "^1.6.0"
 
-"@polyjuice-provider/base@0.0.1-rc6":
-  version "0.0.1-rc6"
-  resolved "https://registry.yarnpkg.com/@polyjuice-provider/base/-/base-0.0.1-rc6.tgz#7b9193802caa4cb1e2d18ba8293ce471508830ae"
-  integrity sha512-cXygyvsOFBxW402QaZM5YoHRX6+mKsI4qz42j06b+/IWOT9cHx1AIdDpOWhtwGf0uZq/9D5hDcxZDCL4fxRnTw==
+"@polyjuice-provider/base@0.0.1-rc5":
+  version "0.0.1-rc5"
+  resolved "https://registry.yarnpkg.com/@polyjuice-provider/base/-/base-0.0.1-rc5.tgz#17c68770860106ff9525919e73357aa84bdb34df"
+  integrity sha512-qCnCJbUnfxIpCmnkuEffsTxp2MfpvqEQhX/okjQAOWfg5qsbDRmPe63/ELUvHLtk+4epDcSUcuaGoxNLqPDqyQ==
   dependencies:
     "@ckb-lumos/base" "^0.16.0"
-    "@polyjuice-provider/godwoken" "^0.0.1-rc6"
+    "@polyjuice-provider/godwoken" "^0.0.1-rc5"
     buffer "^6.0.3"
     encoding "^0.1.13"
     eth-sig-util "^3.0.1"
@@ -1583,7 +1583,7 @@
     web3 "^1.3.4"
     xhr2-cookies "^1.1.0"
 
-"@polyjuice-provider/godwoken@^0.0.1-rc6":
+"@polyjuice-provider/godwoken@^0.0.1-rc5":
   version "0.0.1-rc6"
   resolved "https://registry.yarnpkg.com/@polyjuice-provider/godwoken/-/godwoken-0.0.1-rc6.tgz#7a88a38fd3665d2cabf5faa800b27d18a713c572"
   integrity sha512-IjtnqKKefiDFnBumZC76YZu6mX8vV95rwrCCtbtDPk5mXJaHx4Th7NnFwrEayU/Ms7m12RDAEbs4TP9qd5Nxlg==
@@ -1593,12 +1593,12 @@
     immutable "^4.0.0-rc.12"
     keccak256 "^1.0.2"
 
-"@polyjuice-provider/web3@0.0.1-rc6":
-  version "0.0.1-rc6"
-  resolved "https://registry.yarnpkg.com/@polyjuice-provider/web3/-/web3-0.0.1-rc6.tgz#280ca03dd0caa8a93b82ca8ad904656ece99537e"
-  integrity sha512-edHAupXCNTMReP5c1ZOPMCNQfo/KsZfuWib3pn1rJ28mE609GWUjyHWb72k23cjovI9KYWN5fD2PTCO0hZ2MqQ==
+"@polyjuice-provider/web3@0.0.1-rc5":
+  version "0.0.1-rc5"
+  resolved "https://registry.yarnpkg.com/@polyjuice-provider/web3/-/web3-0.0.1-rc5.tgz#f73c52488e336c3f197c3f7e548da8dfa8a19709"
+  integrity sha512-P0XWptxnT2MkOz6XuWL8n+J7vOa47MSZD7RAVx92IfMrJiaK4XOlkk45xU364paeBaRIevj6WDMkmhpNfc2Rbg==
   dependencies:
-    "@polyjuice-provider/base" "0.0.1-rc6"
+    "@polyjuice-provider/base" "0.0.1-rc5"
     buffer "^6.0.3"
     encoding "^0.1.13"
     web3 "^1.4.0"
