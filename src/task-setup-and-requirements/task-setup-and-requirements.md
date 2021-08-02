@@ -16,7 +16,7 @@ The following operating systems are officially supported. Other operating system
 
 - Build Tools
 - [Git](https://git-scm.com/)
-- [Node.js 14+](https://nodejs.org/en/)
+- [Node.js 14.17.3 (LTS)](https://nodejs.org/en/)
 - Python 2.7.x
 - [Yarn](https://classic.yarnpkg.com/lang/en/)
 - [Docker](https://docs.docker.com/get-docker/)
