@@ -15,6 +15,7 @@ The following operating systems are officially supported. Other operating system
 ## Prerequisite Development Software
 
 - Build Tools
+- Curl
 - [Git](https://git-scm.com/)
 - [Node.js 14.17.3 (LTS)](https://nodejs.org/en/)
 - Python 2.7.x
@@ -29,10 +30,10 @@ The following operating systems are officially supported. Other operating system
 
 ### Ubuntu 20.04 (Native or Windows 10 + WSL2)
 
-#### Build Tools + Git
+#### Build Tools + Git + Curl
 
 ```sh
-sudo apt install build-essential git
+sudo apt install build-essential git curl
 ```
 
 #### Node.js
@@ -71,6 +72,10 @@ Docker will be used for running Solidity compiler to compile smart contracts. Yo
 #### Build Tools + Git
 
 Download and install the Xcode Command Line Tools from [developer.apple.com](https://developer.apple.com/library/archive/technotes/tn2339/).
+
+#### Curl
+
+Curl should be installed by default on recent versions of MacOS.
 
 #### Node.js
 
