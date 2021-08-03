@@ -4,7 +4,9 @@
   "main": "index.js",
   "license": "MIT",
   "dependencies": {
+    "@ckb-lumos/base": "0.16.0",
     "@polyjuice-provider/base": "0.0.1-rc5",
+    "@polyjuice-provider/godwoken": "0.0.1-rc6",
     "@polyjuice-provider/web3": "0.0.1-rc5",
     "nervos-godwoken-integration": "0.0.3",
     "truffle": "5.4.2",
