@@ -14,12 +14,14 @@
 1. [Create a Godwoken Account on the EVM Layer 2 Testnet](src/tasks/1.create.godwoken.account.md)
 2. [Deploy a Simple Ethereum Smart Contract on Polyjuice](src/tasks/2.deploy.eth.contract.md)
 3. [Issue a Smart Contract Call to the Deployed Smart Contract](src/tasks/3.issue.contract.call.md)
-4. [Issue an SUDT Token on Layer 1 and Deposit it to Polyjuice on Layer 2](src/tasks/4.issue.sudt.deposit.md)
+4. [Issue an SUDT Token on Layer 1 and Deposit it to Layer 2](src/tasks/4.issue.sudt.deposit.md)
 5. [Deploy the ERC20 Proxy Contract for the Deposited SUDT](src/tasks/5.deploy.erc20.proxy.contract.md)
 6. [Use Force Bridge to Deposit Tokens on Ethereum to Polyjuice](src/tasks/6.use.force.bridge.to.deposit.md)
 7. [Port an Existing Ethereum dApp to Polyjuice](src/tasks/7.port.eth.dapp.md)
 8. [Modify the Ported dApp so it Supports Ethereum Assets via Force Bridge](src/tasks/8.modify.dapp.support.force.bridge.md)
 9. [Initiate Withdrawal Process From the Layer 2 Back to Layer 1](src/tasks/9.withdraw.md)
+
+<!--
 
 ## Component Tutorials
 
@@ -60,3 +62,5 @@
 	1. [Mainnet/Testnet/Devnet](src/conceptual-explainers/structure.md#mainnet--testnet--devnet)
 	2. [Layer 1/Layer 2](src/conceptual-explainers/structure.md#layer-1--layer-2)
 	3. [Common User Action Flow](src/conceptual-explainers/structure.md#common-user-action-flow)
+
+-->
