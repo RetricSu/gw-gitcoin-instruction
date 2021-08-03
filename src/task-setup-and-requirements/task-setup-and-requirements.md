@@ -16,11 +16,12 @@ The following operating systems are officially supported. Other operating system
 
 - Build Tools
 - Curl
-- [Git](https://git-scm.com/)
-- [Node.js 14.17.3 (LTS)](https://nodejs.org/en/)
+- 7zip (optional)
+- Git
+- Node.js 14.17.3 (LTS)
 - Python 2.7.x
-- [Yarn](https://classic.yarnpkg.com/lang/en/)
-- [Docker](https://docs.docker.com/get-docker/)
+- Yarn
+- Docker
 
 ## Prerequisite Wallet Software
 
@@ -30,10 +31,10 @@ The following operating systems are officially supported. Other operating system
 
 ### Ubuntu 20.04 (Native or Windows 10 + WSL2)
 
-#### Build Tools + Git + Curl
+#### Build Tools + Git + Curl + 7zip
 
 ```sh
-sudo apt install build-essential git curl
+sudo apt install build-essential git curl p7zip-full
 ```
 
 #### Node.js
@@ -77,9 +78,13 @@ Download and install the Xcode Command Line Tools from [developer.apple.com](htt
 
 Curl should be installed by default on recent versions of MacOS.
 
+#### 7zip
+
+A MacOS version of 7zip, and some alternatives, can be found on the [7zip download page](https://www.7-zip.org/download.html).
+
 #### Node.js
 
-Node.js provides a MacOS installer which can be found on the [Node.js Download page](https://nodejs.org/en/download/).
+Node.js provides a MacOS installer which can be found on the [Node.js download page](https://nodejs.org/en/download/).
 
 #### Python 2.7.x
 
