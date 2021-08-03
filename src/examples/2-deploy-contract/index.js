@@ -4,7 +4,7 @@ const { PolyjuiceHttpProvider, PolyjuiceAccounts } = require("@polyjuice-provide
 const contractName = process.argv.slice(2)[0];
 
 if (!contractName) {
-    throw new Error(`No compiled contract specified to deploy. Please put it in "src/examples/2-deploy-contract/artifacts" directory and provide its name as an argument to this program, eg.: "node index.js SimpleStorage.json"`);
+    throw new Error(`No compiled contract specified to deploy. Please put it in "src/examples/2-deploy-contract/build/contracts" directory and provide its name as an argument to this program, eg.: "node index.js SimpleStorage.json"`);
 }
 
 const CompiledContractArtifact = require(`./build/contracts/${contractName}`);
