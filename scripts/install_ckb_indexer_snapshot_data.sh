@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-ckbIndexerBinary="./ckb"
+ckbIndexerBinary="./ckb-indexer"
 indexerDataPath="./data/db"
 snapshot=20210801-nervos-ckb-node-0.43.1-testnet-snapshot.7z
 
