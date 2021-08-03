@@ -1,13 +1,29 @@
+const { existsSync } = require('fs');
 const Web3 = require('web3');
 const { PolyjuiceHttpProvider, PolyjuiceAccounts } = require("@polyjuice-provider/web3");
 
 const contractName = process.argv.slice(2)[0];
 
 if (!contractName) {
-    throw new Error(`No compiled contract specified to deploy. Please put it in "src/examples/2-deploy-contract/artifacts" directory and provide its name as an argument to this program, eg.: "node index.js SimpleStorage.json"`);
+    throw new Error(`No compiled contract specified to deploy. Please put it in "src/examples/2-deploy-contract/build/contracts" directory and provide its name as an argument to this program, eg.: "node index.js SimpleStorage.json"`);
 }
 
-const CompiledContractArtifact = require(`./build/contracts/${contractName}`);
+let compiledContractArtifact = null;
+const filenames = [`./build/contracts/${contractName}`, `./${contractName}`];
+for(const filename of filenames)
+{
+    if(existsSync(filename))
+    {
+        console.log(`Found file: ${filename}`);
+        compiledContractArtifact = require(filename);
+        break;
+    }
+    else
+        console.log(`Checking for file: ${filename}`);
+}
+
+if(compiledContractArtifact === null)
+    throw new Error(`Unable to find contract file: ${contractName}`);
 
 const DEPLOYER_PRIVATE_KEY = '<YOUR_ETHEREUM_PRIVATE_KEY>'; // Replace this with your Ethereum private key with funds on Layer 2.
 
@@ -39,8 +55,8 @@ web3.eth.Contract.setProvider(provider, web3.eth.accounts);
 
     console.log(`Deploying contract...`);
 
-    const deployTx = new web3.eth.Contract(CompiledContractArtifact.abi).deploy({
-        data: getBytecodeFromArtifact(CompiledContractArtifact),
+    const deployTx = new web3.eth.Contract(compiledContractArtifact.abi).deploy({
+        data: getBytecodeFromArtifact(compiledContractArtifact),
         arguments: []
     }).send({
         from: deployerAccount.address,
