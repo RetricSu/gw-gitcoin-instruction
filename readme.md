@@ -20,6 +20,8 @@
 7. [Port an Existing Ethereum dApp to Polyjuice](src/tasks/7.port.eth.dapp.md)
 8. [Modify the Ported dApp so it Supports Ethereum Assets via Force Bridge](src/tasks/8.modify.dapp.support.force.bridge.md)
 
+<!--
+
 ## Component Tutorials
 
 1. [Setup a Nervos CKB Layer 1 Account with CKBytes](src/component-tutorials/1.setup.account.in.ckb.cli.md)
@@ -59,3 +61,5 @@
 	1. [Mainnet/Testnet/Devnet](src/conceptual-explainers/structure.md#mainnet--testnet--devnet)
 	2. [Layer 1/Layer 2](src/conceptual-explainers/structure.md#layer-1--layer-2)
 	3. [Common User Action Flow](src/conceptual-explainers/structure.md#common-user-action-flow)
+
+-->
