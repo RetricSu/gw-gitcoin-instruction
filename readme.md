@@ -19,7 +19,7 @@
 6. [Use Force Bridge to Deposit Tokens on Ethereum to Polyjuice](https://github.com/Kuzirashi/gw-gitcoin-instruction/blob/master/src/tasks/6.use.force.bridge.to.deposit.md)
 7. [Port an Existing Ethereum dApp to Polyjuice](https://github.com/Kuzirashi/gw-gitcoin-instruction/blob/master/src/tasks/7.port.eth.dapp.md)
 8. [Modify the Ported dApp so it Supports Ethereum Assets via Force Bridge](https://github.com/Kuzirashi/gw-gitcoin-instruction/blob/master/src/tasks/8.modify.dapp.support.force.bridge.md)
-9. [Initiate Withdrawal Process from the Layer 2 back to Layer 1](https://github.com/Kuzirashi/gw-gitcoin-instruction/blob/master/src/tasks/9.withdraw.md)
+9. [Initiate a Withdrawal From Layer 2 Back to Layer 1](https://github.com/Kuzirashi/gw-gitcoin-instruction/blob/master/src/tasks/9.withdraw.md)
 10. [Complete Withdrawal Process by Unlocking the Funds](https://github.com/Kuzirashi/gw-gitcoin-instruction/blob/master/src/tasks/10.unlock.md)
 
 <!--
@@ -31,25 +31,25 @@
 3. [Setup and use `account-cli` tool](https://github.com/Kuzirashi/gw-gitcoin-instruction/blob/master/src/component-tutorials/3.setup.and.use.account.cli.md)
 4. [Create a Godwoken Account by Making a Layer 2 Deposit](https://github.com/Kuzirashi/gw-gitcoin-instruction/blob/master/src/component-tutorials/4.layer2.deposit.md)
 5. [Extracting a Private Key from MetaMask Wallet](https://github.com/Kuzirashi/gw-gitcoin-instruction/blob/master/src/component-tutorials/5.extract.ethereum.private.key.md)
-6. [Setup and sync CKB testnet node, indexer and install `ckb-cli`](https://github.com/Kuzirashi/gw-gitcoin-instruction/blob/master/src/component-tutorials/6.setup.testnet.node.md)
-7. [Receive an SUDT in Neuron wallet](https://github.com/Kuzirashi/gw-gitcoin-instruction/blob/master/src/component-tutorials/7.receive.sudt.in.neuron.md)
+6. ~~[Setup and sync CKB testnet node, indexer and install `ckb-cli`](https://github.com/Kuzirashi/gw-gitcoin-instruction/blob/master/src/component-tutorials/6.setup.testnet.node.md)~~
+7. ~~[Receive an SUDT in Neuron wallet](https://github.com/Kuzirashi/gw-gitcoin-instruction/blob/master/src/component-tutorials/7.receive.sudt.in.neuron.md)~~
 
 ## Conceptual Explainers
 
 - Wallets
 	1. [MetaMask](https://github.com/Kuzirashi/gw-gitcoin-instruction/blob/master/src/conceptual-explainers/wallets.md#metamask)
-	2. [Neuron Wallet](https://github.com/Kuzirashi/gw-gitcoin-instruction/blob/master/src/conceptual-explainers/wallets.md#neuron-wallet)
-	2. [Portal Wallet](https://github.com/Kuzirashi/gw-gitcoin-instruction/blob/master/src/conceptual-explainers/wallets.md#portal-wallet)
+	2. ~~[Neuron Wallet](https://github.com/Kuzirashi/gw-gitcoin-instruction/blob/master/src/conceptual-explainers/wallets.md#neuron-wallet)~~
+	3. ~~[Portal Wallet](https://github.com/Kuzirashi/gw-gitcoin-instruction/blob/master/src/conceptual-explainers/wallets.md#portal-wallet)~~
 - Tooling
 	1. [CKB Node](https://github.com/Kuzirashi/gw-gitcoin-instruction/blob/master/src/conceptual-explainers/tooling.md#ckb-node)
 	2. [CKB Indexer](https://github.com/Kuzirashi/gw-gitcoin-instruction/blob/master/src/conceptual-explainers/tooling.md#ckb-indexer)
 	3. [CKB-CLI](https://github.com/Kuzirashi/gw-gitcoin-instruction/blob/master/src/conceptual-explainers/tooling.md#ckb-cli)
-	4. [Tippy](https://github.com/Kuzirashi/gw-gitcoin-instruction/blob/master/src/conceptual-explainers/tooling.md#tippy)
+	4. ~~[Tippy](https://github.com/Kuzirashi/gw-gitcoin-instruction/blob/master/src/conceptual-explainers/tooling.md#tippy)~~
 	5. [CKB.tools](https://github.com/Kuzirashi/gw-gitcoin-instruction/blob/master/src/conceptual-explainers/tooling.md#ckbtools)
 	6. [SUDT-CLI](https://github.com/Kuzirashi/gw-gitcoin-instruction/blob/master/src/conceptual-explainers/tooling.md#sudt-cli)
 - Frameworks
 	1. [Godwoken](https://github.com/Kuzirashi/gw-gitcoin-instruction/blob/master/src/conceptual-explainers/frameworks.md#godwoken)
-	2. [Godwoken Kicker](https://github.com/Kuzirashi/gw-gitcoin-instruction/blob/master/src/conceptual-explainers/frameworks.md#godwoken-kicker)
+	2. ~~[Godwoken Kicker](https://github.com/Kuzirashi/gw-gitcoin-instruction/blob/master/src/conceptual-explainers/frameworks.md#godwoken-kicker)~~
 	3. [Polyjuice](https://github.com/Kuzirashi/gw-gitcoin-instruction/blob/master/src/conceptual-explainers/frameworks.md#polyjuice)
 - Infrastructure
 	1. [Force Bridge](https://github.com/Kuzirashi/gw-gitcoin-instruction/blob/master/src/conceptual-explainers/infrastructure.md#force-bridge)

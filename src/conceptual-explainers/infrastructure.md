@@ -8,7 +8,7 @@ This allows value in all forms, be it tokens, NFTs, or other assets of value, to
 
 Force Bridge is designed to be both trustless and permissionless, replying on incentives to ensure security and continued operation. Anyone can deploy a new bridge, use an existing bridge, or participate in an existing bridge.
 
-Developers can also integrate the Force Bridge protocol into their projects, giving their users a seamless way to do cross-chain transfers without having to leave the developer's dapp.
+Developers can also integrate the Force Bridge protocol into their projects, giving their users a seamless way to do cross-chain transfers without having to leave the developer's dApp.
 
 Force Bridge's operation is being rolled out in two phases:
 
@@ -40,7 +40,7 @@ The Nervos Explorer is available for both the Mainnet and the Testnet.
 
 The Nervos Faucet is a website that allows developers to claim a small amount of CKBytes on the Testnet for the purposes of research and development.
 
-This allows developers to test their dapps easily on the Testnet, without having to mine or purchase CKBytes on the Mainnet.
+This allows developers to test their dApps easily on the Testnet, without having to mine or purchase CKBytes on the Mainnet.
 
 Developers can currently claim 10,000 CKBytes per address every 24 hours.
 
