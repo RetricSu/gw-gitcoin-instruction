@@ -30,25 +30,25 @@
 3. [Setup and use `account-cli` tool](https://github.com/Kuzirashi/gw-gitcoin-instruction/blob/master/src/component-tutorials/3.setup.and.use.account.cli.md)
 4. [Create a Godwoken Account by Making a Layer 2 Deposit](https://github.com/Kuzirashi/gw-gitcoin-instruction/blob/master/src/component-tutorials/4.layer2.deposit.md)
 5. [Extracting a Private Key from MetaMask Wallet](https://github.com/Kuzirashi/gw-gitcoin-instruction/blob/master/src/component-tutorials/5.extract.ethereum.private.key.md)
-6. [Setup and sync CKB testnet node, indexer and install `ckb-cli`](https://github.com/Kuzirashi/gw-gitcoin-instruction/blob/master/src/component-tutorials/6.setup.testnet.node.md)
-7. [Receive an SUDT in Neuron wallet](https://github.com/Kuzirashi/gw-gitcoin-instruction/blob/master/src/component-tutorials/7.receive.sudt.in.neuron.md)
+6. ~~[Setup and sync CKB testnet node, indexer and install `ckb-cli`](https://github.com/Kuzirashi/gw-gitcoin-instruction/blob/master/src/component-tutorials/6.setup.testnet.node.md)~~
+7. ~~[Receive an SUDT in Neuron wallet](https://github.com/Kuzirashi/gw-gitcoin-instruction/blob/master/src/component-tutorials/7.receive.sudt.in.neuron.md)~~
 
 ## Conceptual Explainers
 
 - Wallets
 	1. [MetaMask](https://github.com/Kuzirashi/gw-gitcoin-instruction/blob/master/src/conceptual-explainers/wallets.md#metamask)
-	2. [Neuron Wallet](https://github.com/Kuzirashi/gw-gitcoin-instruction/blob/master/src/conceptual-explainers/wallets.md#neuron-wallet)
-	2. [Portal Wallet](https://github.com/Kuzirashi/gw-gitcoin-instruction/blob/master/src/conceptual-explainers/wallets.md#portal-wallet)
+	2. ~~[Neuron Wallet](https://github.com/Kuzirashi/gw-gitcoin-instruction/blob/master/src/conceptual-explainers/wallets.md#neuron-wallet)~~
+	3. ~~[Portal Wallet](https://github.com/Kuzirashi/gw-gitcoin-instruction/blob/master/src/conceptual-explainers/wallets.md#portal-wallet)~~
 - Tooling
 	1. [CKB Node](https://github.com/Kuzirashi/gw-gitcoin-instruction/blob/master/src/conceptual-explainers/tooling.md#ckb-node)
 	2. [CKB Indexer](https://github.com/Kuzirashi/gw-gitcoin-instruction/blob/master/src/conceptual-explainers/tooling.md#ckb-indexer)
 	3. [CKB-CLI](https://github.com/Kuzirashi/gw-gitcoin-instruction/blob/master/src/conceptual-explainers/tooling.md#ckb-cli)
-	4. [Tippy](https://github.com/Kuzirashi/gw-gitcoin-instruction/blob/master/src/conceptual-explainers/tooling.md#tippy)
+	4. ~~[Tippy](https://github.com/Kuzirashi/gw-gitcoin-instruction/blob/master/src/conceptual-explainers/tooling.md#tippy)~~
 	5. [CKB.tools](https://github.com/Kuzirashi/gw-gitcoin-instruction/blob/master/src/conceptual-explainers/tooling.md#ckbtools)
 	6. [SUDT-CLI](https://github.com/Kuzirashi/gw-gitcoin-instruction/blob/master/src/conceptual-explainers/tooling.md#sudt-cli)
 - Frameworks
 	1. [Godwoken](https://github.com/Kuzirashi/gw-gitcoin-instruction/blob/master/src/conceptual-explainers/frameworks.md#godwoken)
-	2. [Godwoken Kicker](https://github.com/Kuzirashi/gw-gitcoin-instruction/blob/master/src/conceptual-explainers/frameworks.md#godwoken-kicker)
+	2. ~~[Godwoken Kicker](https://github.com/Kuzirashi/gw-gitcoin-instruction/blob/master/src/conceptual-explainers/frameworks.md#godwoken-kicker)~~
 	3. [Polyjuice](https://github.com/Kuzirashi/gw-gitcoin-instruction/blob/master/src/conceptual-explainers/frameworks.md#polyjuice)
 - Infrastructure
 	1. [Force Bridge](https://github.com/Kuzirashi/gw-gitcoin-instruction/blob/master/src/conceptual-explainers/infrastructure.md#force-bridge)
@@ -61,6 +61,6 @@
 - Structure
 	1. [Mainnet/Testnet/Devnet](https://github.com/Kuzirashi/gw-gitcoin-instruction/blob/master/src/conceptual-explainers/structure.md#mainnet--testnet--devnet)
 	2. [Layer 1/Layer 2](https://github.com/Kuzirashi/gw-gitcoin-instruction/blob/master/src/conceptual-explainers/structure.md#layer-1--layer-2)
-	3. [Common User Action Flow](https://github.com/Kuzirashi/gw-gitcoin-instruction/blob/master/src/conceptual-explainers/structure.md#common-user-action-flow)
+	3. ~~[Common User Action Flow](https://github.com/Kuzirashi/gw-gitcoin-instruction/blob/master/src/conceptual-explainers/structure.md#common-user-action-flow)~~
 
 -->
