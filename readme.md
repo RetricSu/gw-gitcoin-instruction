@@ -61,6 +61,6 @@
 - Structure
 	1. [Mainnet/Testnet/Devnet](https://github.com/Kuzirashi/gw-gitcoin-instruction/blob/master/src/conceptual-explainers/structure.md#mainnet--testnet--devnet)
 	2. [Layer 1/Layer 2](https://github.com/Kuzirashi/gw-gitcoin-instruction/blob/master/src/conceptual-explainers/structure.md#layer-1--layer-2)
-	3. ~~[Common User Action Flow](https://github.com/Kuzirashi/gw-gitcoin-instruction/blob/master/src/conceptual-explainers/structure.md#common-user-action-flow)~~
+	3. [Common User Action Flow](https://github.com/Kuzirashi/gw-gitcoin-instruction/blob/master/src/conceptual-explainers/structure.md#common-user-action-flow)
 
 -->
