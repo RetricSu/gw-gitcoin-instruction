@@ -16,7 +16,7 @@ CKBytes on the Testnet have no value, but are still needed for testing. Develope
 
 A Devnet is a private network for testing purposes. It is similar to the Aggron Testnet, except that it is not a publicly shared environment. Devnets normally reside entirely on the developer's computer, and are created on-demand as they are needed by the developer. Multiple Devnets can be created as needed, and they can each have slightly different configurations, and be paused or deleted as needed.
 
-When a developer begins working on a new dapp, using a Devnet is recommended place to begin. A new network can be created instantly, without having to wait for the network to synchronize. A Devnet uses simulated mining, meaning it is centralized, but extremely efficient and low power to operate. There is no faucet on a Devnet. Instead, there is a well-known account that contains a very large amount of CKBytes which are created in the genesis block. A developer can use the provided private keys to access these CKBytes, which should be more that enough for any necessary testing.
+When a developer begins working on a new dApp, using a Devnet is recommended place to begin. A new network can be created instantly, without having to wait for the network to synchronize. A Devnet uses simulated mining, meaning it is centralized, but extremely efficient and low power to operate. There is no faucet on a Devnet. Instead, there is a well-known account that contains a very large amount of CKBytes which are created in the genesis block. A developer can use the provided private keys to access these CKBytes, which should be more that enough for any necessary testing.
 
 ![Network Type Compare](https://raw.githubusercontent.com/Kuzirashi/gw-gitcoin-instruction/master/src/conceptual-explainers/images/network-type-compare.png)
 
@@ -41,7 +41,7 @@ Most layer 2 chains on Nervos will have certain common characteristics:
 - Process transactions in parallel to the layer 1 chain to achieve higher scalability.
 - Rely on layer 1 to settle consensus disputes and achieve higher levels of security than would otherwise be possible.
 
-Nervos' first layer 2 offering will utilize the Godwoken and Polyjuice frameworks together to create an Ethereum compatible EVM environment that is capable of supporting Solidity based dapps. This layer 2 chain will be initially run by the Nervos Foundation during the initial launch phase, but will eventually convert into a decentralized chain which is operated by the community. All developers will be able to use this layer 2 chain permissionlessly, using the same tooling that is used for development with Ethereum.
+Nervos' first layer 2 offering will utilize the Godwoken and Polyjuice frameworks together to create an Ethereum compatible EVM environment that is capable of supporting Solidity based dApps. This layer 2 chain will be initially run by the Nervos Foundation during the initial launch phase, but will eventually convert into a decentralized chain which is operated by the community. All developers will be able to use this layer 2 chain permissionlessly, using the same tooling that is used for development with Ethereum.
 
 ![Layer 1 / Layer 2](https://raw.githubusercontent.com/Kuzirashi/gw-gitcoin-instruction/master/src/conceptual-explainers/images/layer-1-layer-2.png)
 

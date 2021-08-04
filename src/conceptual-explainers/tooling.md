@@ -18,7 +18,7 @@ The CKB node software is what powers the layer 1 blockchain. It handles the aspe
 
 ## CKB Indexer
 
-The CKB Indexer handles the organization (indexing) of specific pieces of blockchain data which are commonly needed for dapp development. The CKB Indexer runs besides the CKB node software to add additional functionality for developers that is not required by the CKB node software for consensus.
+The CKB Indexer handles the organization (indexing) of specific pieces of blockchain data which are commonly needed for dApp development. The CKB Indexer runs besides the CKB node software to add additional functionality for developers that is not required by the CKB node software for consensus.
 
 In some other blockchain node software, the functionality of the indexer included with the main node software. However, this adds a significant amount of overhead to both the disk space requirements and the processing of each block. This, in turn, increases the resources required to run a basic node on the network.
 
