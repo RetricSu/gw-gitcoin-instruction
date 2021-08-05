@@ -80,7 +80,7 @@ Curl should be installed by default on recent versions of MacOS.
 
 #### 7zip
 
-A MacOS version of 7zip, and some alternatives, can be found on the [7zip download page](https://www.7-zip.org/download.html).
+There are several decompressors available for MacOS that can handle 7z files, but we recommend `p7zip` since it will be fully compatible with our scripts. This can be installed using [Homebrew](https://formulae.brew.sh/formula/p7zip).
 
 #### Node.js
 
