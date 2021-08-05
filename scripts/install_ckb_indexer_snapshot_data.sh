@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 ckbIndexerBinary="./ckb-indexer"
-indexerDataPath="./data/db"
+indexerDataPath="./indexer-data"
 snapshot="20210801-nervos-ckb-indexer-0.2.1-testnet-snapshot.7z"
 
 if [ ! -f ./$ckbIndexerBinary ]; then
