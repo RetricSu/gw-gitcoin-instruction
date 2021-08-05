@@ -22,6 +22,11 @@
 9. [Initiate a Withdrawal From Layer 2 Back to Layer 1](https://github.com/Kuzirashi/gw-gitcoin-instruction/blob/master/src/tasks/9.withdraw.md)
 10. [Complete Withdrawal Process by Unlocking the Funds](https://github.com/Kuzirashi/gw-gitcoin-instruction/blob/master/src/tasks/10.unlock.md)
 
+## Gitcoin Links
+
+1. [Broaden the Spectrum](https://gitcoin.co/hackathon/nervos/onboard)
+2. [Bounties List](https://gitcoin.co/hackathon/nervos/)
+
 <!--
 
 ## Component Tutorials
