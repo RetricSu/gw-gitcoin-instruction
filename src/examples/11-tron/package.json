@@ -1,5 +1,5 @@
 {
-  "name": "5-erc20-proxy",
+  "name": "11-tron",
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
@@ -8,11 +8,9 @@
     "@polyjuice-provider/base": "0.0.1-rc6",
     "@polyjuice-provider/godwoken": "0.0.1-rc6",
     "@polyjuice-provider/web3": "0.0.1-rc6",
-    "nervos-godwoken-integration": "0.0.6",
-    "truffle": "5.4.2",
+    "ethers": "5.4.4",
+    "keccak256": "1.0.3",
+    "tronweb": "3.2.7",
     "web3": "1.4.0"
-  },
-  "scripts": {
-    "compile": "truffle compile"
   }
 }
