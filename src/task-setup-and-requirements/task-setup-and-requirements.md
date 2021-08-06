@@ -18,7 +18,7 @@ The following operating systems are officially supported. Other operating system
 - Curl
 - 7zip (optional)
 - Git
-- Node.js 14.17.3 (LTS)
+- Node.js 14.17.x (LTS)
 - Python 2.7.x
 - Yarn
 - Docker
@@ -39,12 +39,12 @@ sudo apt install build-essential git curl p7zip-full
 
 #### Node.js
 
-The default version of Node.js included with Ubuntu 20.04 is v10.19.0, which is far behind the latest version.
+The default version of Node.js included with Ubuntu 20.04 is v10.19.0, and this is not sufficient.
 
-For full compatibility, a newer version is needed. This can be done using the available Node.js installation instructions for Ubuntu, or by using NVM (Node Version Manager).
+**For these tasks version 14.17.x is needed. Version 16.x.x will not work.** This can be installed using NVM (Node Version Manager), or the normal Node.js installation instructions. We generally recommend using NVM because it allows you to quickly change between any version of Node.js.
 
-- [Node.js Install](https://github.com/nodesource/distributions/blob/master/README.md#debinstall)
 - [NVM Install](https://github.com/nvm-sh/nvm#installing-and-updating)
+- [Node.js Install](https://github.com/nodesource/distributions/blob/master/README.md#debinstall)
 
 #### Python 2.7.x
 
@@ -84,7 +84,10 @@ There are several decompressors available for MacOS that can handle 7z files, bu
 
 #### Node.js
 
-Node.js provides a MacOS installer which can be found on the [Node.js download page](https://nodejs.org/en/download/).
+Node.js can be installed on MacOS using NVM, or by using the Node.js installer. **For these tasks version 14.17.x is needed. Version 16.x.x will not work.**
+
+- [NVM Install](https://github.com/nvm-sh/nvm#installing-and-updating)
+- [Node.js Installer](https://nodejs.org/en/download/)
 
 #### Python 2.7.x
 
