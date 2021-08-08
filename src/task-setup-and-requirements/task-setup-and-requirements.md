@@ -2,6 +2,10 @@
 
 This page describes the requirements for participating on the tasks. Here you will find links and guides to setup your environment properly.
 
+## Supported Architectures
+
+The tooling currently supports the Intel compatible x86_64 architecture. ARM is not currently supported, but there are plans for it to be supported in the future.
+
 ## Supported Environments
 
 The following operating systems are officially supported. Other operating systems may also be compatible, but have not officially been tested for compability by our teams.
@@ -10,7 +14,7 @@ The following operating systems are officially supported. Other operating system
 - [MacOS](https://www.apple.com/macos/) (Big Sur 11.0+)
 - [Windows 10](https://www.microsoft.com/en-us/windows) + [WSL2](https://docs.microsoft.com/en-us/windows/wsl/about) (Ubuntu 20.04 virtualized)
 
-> Note: Throughout our demos and walkthroughs, Ubuntu Linux 20.04 is used. This is the preferred platform.
+> Note: Throughout most of our demos and walkthroughs, Ubuntu Linux 20.04 is used. This is the preferred platform.
 
 ## Prerequisite Development Software
 
