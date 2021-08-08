@@ -106,3 +106,14 @@ npm i -g yarn
 Docker will be used for running Solidity compiler to compile smart contracts. You can find informations how to install it on official [Docker website](https://docs.docker.com/get-docker/).
 
 > Note: The current user must have permission to manage Docker instances. [How to manage Docker as a non-root user](https://docs.docker.com/engine/install/linux-postinstall/).
+
+## Checking Your Node.js and Yarn Versions
+
+One of the most common causes of errors are problems with the Node.js and Yarn versions. These Gitcoin tasks specifically require Node.js v14.17.x, and a recent version of Yarn. You can check these versions using the commands below.
+
+```txt
+node -v
+v14.17.3
+yarn -v
+1.22.11
+```
