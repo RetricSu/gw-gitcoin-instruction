@@ -115,9 +115,9 @@ Docker will be used for running Solidity compiler to compile smart contracts. Yo
 
 ### Windows 10 + PowerShell
 
-#### `node-gyp` dependencies
+1. [node-gyp dependencies](https://github.com/nodejs/node-gyp#on-windows)
+2. Docker or [Docker Desktop](https://docs.docker.com/desktop/windows/install/)
 
-https://github.com/nodejs/node-gyp#on-windows
 
 ## Checking Your Node.js and Yarn Versions
 
