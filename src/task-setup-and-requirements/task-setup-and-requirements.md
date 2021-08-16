@@ -13,7 +13,7 @@ The following operating systems are officially supported. Other operating system
 - [Ubuntu Linux 20.04](https://ubuntu.com/) (Desktop or Server edition)
 - [MacOS](https://www.apple.com/macos/) (Big Sur 11.0+)
 - [Windows 10](https://www.microsoft.com/en-us/windows) + [WSL2](https://docs.microsoft.com/en-us/windows/wsl/about) (Ubuntu 20.04 virtualized)
-- [Windows 10](https://www.microsoft.com/en-us/windows) + [PowerShell](https://docs.microsoft.com/en-us/powershell/scripting/overview) - Only tasks 1 and 4 work.
+- [Windows 10](https://www.microsoft.com/en-us/windows) + [PowerShell](https://docs.microsoft.com/en-us/powershell/scripting/overview) - Only tasks 1 - 6, 9 - 10 work.
 
 > Note: Throughout most of our demos and walkthroughs, Ubuntu Linux 20.04 is used. This is the preferred platform.
 
