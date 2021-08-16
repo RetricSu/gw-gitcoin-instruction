@@ -112,6 +112,13 @@ Docker will be used for running Solidity compiler to compile smart contracts. Yo
 
 > Note: The current user must have permission to manage Docker instances. [How to manage Docker as a non-root user](https://docs.docker.com/engine/install/linux-postinstall/).
 
+
+### Windows 10 + PowerShell
+
+#### `node-gyp` dependencies
+
+https://github.com/nodejs/node-gyp#on-windows
+
 ## Checking Your Node.js and Yarn Versions
 
 One of the most common causes of errors are problems with the Node.js and Yarn versions. These Gitcoin tasks specifically require Node.js v14.17.x, and a recent version of Yarn. You can check these versions using the commands below.
