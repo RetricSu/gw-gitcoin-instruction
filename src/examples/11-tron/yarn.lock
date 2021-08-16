@@ -9,7 +9,7 @@
   dependencies:
     regenerator-runtime "^0.13.4"
 
-"@ckb-lumos/base@^0.16.0":
+"@ckb-lumos/base@0.16.0", "@ckb-lumos/base@^0.16.0":
   version "0.16.0"
   resolved "https://registry.yarnpkg.com/@ckb-lumos/base/-/base-0.16.0.tgz#e235bf39840bdc08e29e2ccb875d7761c9cde7bf"
   integrity sha512-tJMOh+xkY/mTCe5lTchweeHg33+dmeiBhgOW8zHAwalZTrHutduL7N0dPSjrYpjP/Midi9LF7g80wEjj9cTM4A==
@@ -1364,7 +1364,7 @@ ethereumjs-util@^7.0.10, ethereumjs-util@^7.1.0:
     ethjs-util "0.1.6"
     rlp "^2.2.4"
 
-ethers@^5.0.8, ethers@^5.4.4:
+ethers@5.4.4, ethers@^5.0.8:
   version "5.4.4"
   resolved "https://registry.yarnpkg.com/ethers/-/ethers-5.4.4.tgz#35cce530505b84c699da944162195cfb3f894947"
   integrity sha512-zaTs8yaDjfb0Zyj8tT6a+/hEkC+kWAA350MWRp6yP5W7NdGcURRPMOpOU+6GtkfxV9wyJEShWesqhE/TjdqpMA==
@@ -2083,7 +2083,7 @@ jws@^3.2.2:
     jwa "^1.4.1"
     safe-buffer "^5.0.1"
 
-keccak256@^1.0.2, keccak256@^1.0.3:
+keccak256@1.0.3, keccak256@^1.0.2:
   version "1.0.3"
   resolved "https://registry.yarnpkg.com/keccak256/-/keccak256-1.0.3.tgz#0a9c0383a9cda753a7351811cf69eaa607043366"
   integrity sha512-EkF/4twuPm1V/gn75nejOUrKfDUJn87RMLzDWosXF3pXuOvesiSgX35GcmbqzdImCASEkE/WaklWGWSa+Ha5bQ==
@@ -2896,7 +2896,7 @@ tough-cookie@~2.5.0:
     psl "^1.1.28"
     punycode "^2.1.1"
 
-tronweb@^3.2.7:
+tronweb@3.2.7:
   version "3.2.7"
   resolved "https://registry.yarnpkg.com/tronweb/-/tronweb-3.2.7.tgz#207a56741c4d191614c45a543dc3f49248f3632a"
   integrity sha512-DqKFxhHTwYXFshoD0vGoUYxnXg5xsKxbxJrlfdmDbw22T1M8Cnowo6kpLi4xbHm4hiVVdmyzC6Ty4yniTG3zTw==
