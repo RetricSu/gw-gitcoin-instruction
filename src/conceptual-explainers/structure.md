@@ -57,7 +57,7 @@ An average Ethereum user will be able to transfer assets from other blockchains 
 
 The image above shows how an Ethereum user would start from the Ethereum blockchain, and end up interacting with a Solidity smart contract that is running on Nervos. The steps are as follows:
 
-1. The user starts with assets, such as ETH, DAI, USDC, and USDC, in their MetaMask wallet.
+1. The user starts with assets, such as ETH, DAI, USDC, and USDT, in their MetaMask wallet.
 2. The user opens Force Bridge in a web browser, and initiates an asset transfer to Nervos.
 3. Force Bridge validates their deposit transaction, and issues a wrapped token, in the form of an [SUDT](https://github.com/Kuzirashi/gw-gitcoin-instruction/blob/master/src/conceptual-explainers/standards.md#sudt) on Layer 1.
 4. The user would then use a dApp to deposit their SUDT assets from Layer 1 to the Layer 2 which has EVM compatibility provided by the [Godwoken](https://github.com/Kuzirashi/gw-gitcoin-instruction/blob/master/src/conceptual-explainers/frameworks.md#godwoken) and [Polyjuice](https://github.com/Kuzirashi/gw-gitcoin-instruction/blob/master/src/conceptual-explainers/frameworks.md#polyjuice) frameworks.
