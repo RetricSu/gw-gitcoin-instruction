@@ -21,6 +21,7 @@
 8. [Modify the Ported dApp so it Supports Ethereum Assets via Force Bridge](https://github.com/Kuzirashi/gw-gitcoin-instruction/blob/master/src/tasks/8.modify.dapp.support.force.bridge.md)
 9. [Initiate a Withdrawal From Layer 2 Back to Layer 1](https://github.com/Kuzirashi/gw-gitcoin-instruction/blob/master/src/tasks/9.withdraw.md)
 10. [Complete Withdrawal Process by Unlocking the Funds](https://github.com/Kuzirashi/gw-gitcoin-instruction/blob/master/src/tasks/10.unlock.md)
+11. [Use a Tron Wallet to Execute a Smart Contract Call](https://github.com/Kuzirashi/gw-gitcoin-instruction/blob/master/src/tasks/11.tron.call.md)
 
 ## Gitcoin Links
 
