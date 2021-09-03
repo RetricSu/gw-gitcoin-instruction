@@ -9,15 +9,12 @@ const SUDT_NAME = 'MyToken';
 const SUDT_SYMBOL = 'MTK';
 const SUDT_TOTAL_SUPPLY = 9999999999;
 
-const GODWOKEN_RPC_URL = 'https://godwoken-testnet-web3-rpc.ckbapp.dev';
 const polyjuiceConfig = {
-    rollupTypeHash: '0x4cc2e6526204ae6a2e8fcf12f7ad472f41a1606d5b9624beebd215d780809f6a',
-    ethAccountLockCodeHash: '0xdeec13a7b8e100579541384ccaf4b5223733e4a5483c3aec95ddc4c1d5ea5b22',
-    web3Url: GODWOKEN_RPC_URL
+    web3Url: 'https://godwoken-testnet-web3-rpc.ckbapp.dev'
 };
   
 const provider = new PolyjuiceHttpProvider(
-    GODWOKEN_RPC_URL,
+    polyjuiceConfig.web3Url,
     polyjuiceConfig,
 );
 
@@ -44,16 +41,14 @@ web3.eth.Contract.setProvider(provider, web3.eth.accounts);
         arguments: [SUDT_NAME, SUDT_SYMBOL, SUDT_TOTAL_SUPPLY, SUDT_ID]
     }).send({
         from: account.address,
-        to: '0x' + new Array(40).fill(0).join(''),
         gas: 6000000,
-        gasPrice: '0',
     });
 
     deployTx.on('transactionHash', hash => console.log(`Transaction hash: ${hash}`));
 
-    const receipt = await deployTx;
+    const contract = await deployTx;
 
-    console.log(`Deployed SUDT-ERC20 Proxy contract address: ${receipt.contractAddress}`);
+    console.log(`Deployed SUDT-ERC20 Proxy contract address: ${contract.options.address}`);
 })();
 
 function getBytecodeFromArtifact(contractArtifact) {
