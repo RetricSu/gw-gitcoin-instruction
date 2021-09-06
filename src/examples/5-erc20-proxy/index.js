@@ -1,3 +1,4 @@
+const fs = require('fs').promises;
 const Web3 = require('web3');
 const { PolyjuiceHttpProvider, PolyjuiceAccounts } = require("@polyjuice-provider/web3");
 
@@ -25,6 +26,9 @@ const account = web3.eth.accounts.wallet.add(ACCOUNT_PRIVATE_KEY);
 web3.eth.Contract.setProvider(provider, web3.eth.accounts);
 
 (async () => {
+    // You need to use this exact bytecode for SUDT proxy otherwise it won't work
+    const SudtProxyBytecode = (await (await fs.readFile('./contracts/SudtERC20Proxy.bin')).toString());
+
     console.log(`Using Ethereum address: ${account.address}`);
 
     const balance = BigInt(await web3.eth.getBalance(account.address));
@@ -37,7 +41,7 @@ web3.eth.Contract.setProvider(provider, web3.eth.accounts);
     console.log(`Deploying contract...`);
 
     const deployTx = new web3.eth.Contract(CompiledContractArtifact.abi).deploy({
-        data: getBytecodeFromArtifact(CompiledContractArtifact),
+        data: SudtProxyBytecode,
         arguments: [SUDT_NAME, SUDT_SYMBOL, SUDT_TOTAL_SUPPLY, SUDT_ID]
     }).send({
         from: account.address,
@@ -50,7 +54,3 @@ web3.eth.Contract.setProvider(provider, web3.eth.accounts);
 
     console.log(`Deployed SUDT-ERC20 Proxy contract address: ${contract.options.address}`);
 })();
-
-function getBytecodeFromArtifact(contractArtifact) {
-    return contractArtifact.bytecode || contractArtifact.data?.bytecode?.object
-}
