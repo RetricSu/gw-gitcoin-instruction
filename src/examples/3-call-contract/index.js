@@ -14,15 +14,12 @@ const ACCOUNT_PRIVATE_KEY = '<YOUR_ETHEREUM_PRIVATE_KEY>'; // Replace this with 
 const CONTRACT_ABI = [<YOUR_CONTRACT_ABI>]; // this should be an Array []
 const CONTRACT_ADDRESS = '<YOUR_CONTRACT_ADDRESS>';
 
-const GODWOKEN_RPC_URL = 'https://godwoken-testnet-web3-rpc.ckbapp.dev';
 const polyjuiceConfig = {
-    rollupTypeHash: '0x4cc2e6526204ae6a2e8fcf12f7ad472f41a1606d5b9624beebd215d780809f6a',
-    ethAccountLockCodeHash: '0xdeec13a7b8e100579541384ccaf4b5223733e4a5483c3aec95ddc4c1d5ea5b22',
-    web3Url: GODWOKEN_RPC_URL
+    web3Url: 'https://godwoken-testnet-web3-rpc.ckbapp.dev'
 };
   
 const provider = new PolyjuiceHttpProvider(
-    GODWOKEN_RPC_URL,
+    polyjuiceConfig.web3Url,
     polyjuiceConfig,
 );
 
@@ -48,9 +45,7 @@ async function writeCall() {
     const tx = contract.methods.YOUR_WRITE_FUNCTION_NAME().send(
         {
             from: account.address,
-            to: '0x' + new Array(40).fill(0).join(''),
-            gas: 6000000,
-            gasPrice: '0',
+            gas: 6000000
         }
     );
 

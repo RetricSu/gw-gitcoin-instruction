@@ -4,7 +4,7 @@ This page describes the requirements for participating on the tasks. Here you wi
 
 ## Supported Architectures
 
-The tooling currently supports the Intel compatible x86_64 architecture. ARM is not currently supported, but there are plans for it to be supported in the future.
+The tooling currently supports the Intel compatible x86_64 architecture and ARM (eg. M1 Macs).
 
 ## Supported Environments
 
