@@ -436,9 +436,9 @@
     jsbi "^3.1.4"
     keccak "^3.0.0"
 
-"@lay2/pw-core@git+https://github.com/kuzirashi/pw-core.git#bc493cb6b7bff7489afe6fcda71c3c03e7985b96":
+"@lay2/pw-core@git+https://github.com/lay2dev/pw-core.git#f184de7b4933ae52e7222967b3070e8abf01e272":
   version "0.4.0-alpha.10"
-  resolved "git+https://github.com/kuzirashi/pw-core.git#bc493cb6b7bff7489afe6fcda71c3c03e7985b96"
+  resolved "git+https://github.com/lay2dev/pw-core.git#f184de7b4933ae52e7222967b3070e8abf01e272"
   dependencies:
     "@nervosnetwork/ckb-sdk-utils" "^0.41.1"
     "@scatterjs/core" "^2.7.53"
